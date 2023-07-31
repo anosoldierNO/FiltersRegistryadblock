@@ -8138,10 +8138,6 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||dubisthalle.de/wp-content/uploads/*/loezius.png
 ||dubisthalle.de/wp-content/uploads/*_300x300_
 ||dubisthalle.de/wp-content/uploads/*_banner_
-||dxtv.de/gfx/allinkl.gif
-||dxtv.de/gfx/octagon21.gif
-||dxtv.de/gfx/satshop24.gif
-||dxtv.eu/spnsrs2/
 ||dynamo-dresden.de/uploads/*/sponsors-
 ||e110.de/wp-content/uploads/*_Webbanner_
 ||ecards4u.de/banner_rt.php
@@ -8322,6 +8318,8 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||happyweekend-club.com/images/default/banner_
 ||happyweekend-club.com/images/default/hw_ffgv_chat.gif
 ||hardware-factory.com/images/01_ban/
+||hardware-mag.de/images/ads/
+||hardware-mag.de/js/ads.min.js
 ||hardwareluxx.de/images/stories/werbung/
 ||hartgeld.com/images/banners/
 ||hausgeraete-test.de/images/trademarks/
@@ -8411,6 +8409,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||ibooks.to/wp-content/uploads/*/dldl.png
 ||ibooks.to/wp-content/uploads/*/ffree.png
 ||ibooks.to/wp-content/uploads/*/goforblock.png
+||ibooks.to/wp-content/uploads/*/offdd728.png
 ||idealo.de/banner/
 ||images-amazon.com/images/*/marquee/
 ||images-amazon.com/images/*/marqueestatic/
@@ -8695,6 +8694,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||pornozebra.com/img/linklist2/
 ||port01.com/uploads/banner/
 ||pragerzeitung.cz/wp-content/uploads/*_300x450px_
+||prispi.de/images/bluvista-cam1.gif
 ||production-livingdocs-bluewin-ch.imgix.net^*/6f3cdbc0-2a58-4a7e-933f-9077769c899b.png$domain=bluewin.ch
 ||promiflash.de/static/js/pf-web-*.js|
 ||prosiebengames.de/sites/prosiebengames/files/*/bowsergames_wallpaper_$image
@@ -8762,7 +8762,6 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||saechsische.de/img/semperoper.png
 ||saechsische.de/img/spkv.png
 ||sapi.edelight.biz/api/$domain=gala.de
-||sat-erotik.de/videot.gif
 ||saugen.to/img/a64766df93089f441800d8a7a273510419.jpg
 ||sbb.it/images/default-source/*-200x350-
 ||sbb.it/images/default-source/*-banner-
@@ -10971,6 +10970,7 @@ nibelungen-kurier.de##.widget_dkge_wrapper
 freiluft-blog.de##.widget_links
 hebelschein-spekulant.de##.widget_media_image
 bueroblog.ch,computerfachmagazin.de,office-roxx.de##.widget_metaslider_widget
+buongiornosuedtirol.it##.widget_random_banner_widget
 puschtra.it##.widget_sp_image
 hebelschein-spekulant.de##.widget_text
 zitate-online.de##.witz > .bewertung + .detaillink + p:last-child
@@ -11008,6 +11008,7 @@ ddl-warez.cc##[onclick^="window.location.href='/azn/"]
 chip.de##[style*="/screen13."]
 chip.de##[style*="://network.screen13.com/"]
 allround-pc.com##[style*="background-color: #001d4a;"]
+onvista.de##a[class*="ArticleTeaserBox"][href^="https://bnpp.lk/"]
 manomano.de##a[class*="sponsoredProductCard"]
 neuwagen.de##a[class="placement"]
 camping.de##a[class^="herobanner-adv"]
@@ -11115,7 +11116,6 @@ report24.news##a[href^="https://tentorium.tv/"]
 pcwelt.de##a[href^="https://tracking.s24.com/"]
 ero-world.info##a[href^="https://vxcsh.com/"]
 spiele-umsonst.de##a[href^="https://wgaffiliate.com/?a="]
-dxtv.de##a[href^="https://www.all-inkl.com/index.php?partner="]
 bildschirmarbeiter.com,bitreporter.de,chip.de,emok.tv,naruto-tube.org,nickles.de,onepiece-tube.com,pcgamesdatabase.de,pcwelt.de,pi-news.net,ruhrbarone.de,schule-studium.de,wiiunews.at##a[href^="https://www.amazon."][href*="tag="]
 uepo.de##a[href^="https://www.amazon."][href*="tag="] > img
 cyclingmagazine.de##a[href^="https://www.amazon.de/"] > img
@@ -11138,10 +11138,8 @@ trendmutti.com##a[href^="https://www.krokodeal.net/"]
 schwedenstube.de##a[href^="https://www.lead-alliance.net/tc.php"]
 daily-pia.de##a[href^="https://www.manitu.de/?partner="]
 sexabc.ch##a[href^="https://www.mydirtyhobby.de/"][href*="?ats="]
-dxtv.de##a[href^="https://www.octagon-germany.eu"]
 hoerbuch.us##a[href^="https://www.purevpn.com/?aff="]
 hoerbuch.us##a[href^="https://www.purevpn.com?aff="]
-dxtv.de##a[href^="https://www.satshop24.de"]
 beeg-pornos.com,deinesexfilme.com,einfachtitten.com,gutesexfilme.com,halloporno.net,hd-sexfilme.com,hdpornos.net,herzporno.com,lesbenhd.com,meinyouporn.com,nursexfilme.com,pornoaffe.com,pornoente.tv,pornofelix.com,pornofisch.com,pornohammer.com,pornohans.com,pornohirsch.net,pornojenny.com,pornoklinge.com,pornoschlange.com,pornotom.com,pornotommy.com,pornozebra.com,sexente.com,sexvideos-gratis.com,sexvideos-hd.com,tube8-pornos.com,xhamster-sexfilme.com,xhamster-sexvideos.com,xnxx-porno.com,xnxx-sexfilme.com##a[href^="https://www.susi.live/FreeAccountLanding.aspx?"]
 areadvd.de##a[href^="https://www.teufel.de/sales?partner_id="]
 pcwelt.de##a[href^="https://www.tkqlhce.com/click-"]
@@ -11178,6 +11176,7 @@ abload.de##center > table > tbody > tr > td[valign="bottom"][align="center"][sty
 winfuture.de##div[align="center"][style="min-height: 320px;"]
 3dchip.de##div[align="center"][width="468px"] > table[height="60"][cellspacing="0"][cellpadding="0"][border="0"][align="center"]
 bitreporter.de##div[class$="-adlabel"]
+onvista.de##div[class*="InteractionTypeReference_ov-interaction-slot--fallback"]
 onlinehaendler-news.de##div[class*="adplacement_"]
 chartsurfer.de##div[class*="adszone-"]
 homegate.ch##div[class^="AdSlotContainer_"]
@@ -11225,6 +11224,7 @@ giga.de##div[data-trigger="sourcepoint-ad"]
 prosiebengames.de##div[data-url-link^="https://track-adspree.com/"]
 t-online.de,www-t--online-de.cdn.ampproject.org##div[id^="T-"].Tmm.Tltb.Tts.Tmc1.Tww1.Thh3[onfocus^="A('zid="] > .Ttsc.Ttsv169
 t-online.de,www-t--online-de.cdn.ampproject.org##div[id^="T-"][oncontextmenu="return false"]
+hardware-mag.de##div[id^="ad-"]
 gamestar.de##div[id^="ad-div-"]
 argoviatoday.ch,fm1today.ch,nzz.ch,pilatustoday.ch,swissmom.ch##div[id^="adnz_"]
 haus.de##div[id^="adtech_"]
@@ -11237,6 +11237,7 @@ basic-tutorials.de##div[id^="basic-"]
 bayreuther-tagblatt.de##div[id^="bayre-"]
 20min.ch##div[id^="bern__inside-"]
 hpd.de##div[id^="block-views-advertising-"]
+buongiornosuedtirol.it##div[id^="buong-"]
 fla.de##div[id^="cncpt-dsk_"]
 coincierge.de##div[id^="coinc-"]
 20min.ch##div[id^="community__inside-"]
@@ -11274,6 +11275,7 @@ mo-web.de##div[id^="moads-"]
 modified-shop.org##div[id^="modifiedwerbung_"]
 t-online.de,www-t--online-de.cdn.ampproject.org##div[id^="mrec"]
 20min.ch##div[id^="my-news-plus__inside-"]
+wallstreet-online.de##div[id^="nativendo-"]
 tonspion.de##div[id^="netse-"]
 noz.de##div[id^="nozmhn_ad_"]
 frustfrei-lernen.de##div[id^="npm_"]
@@ -11321,6 +11323,7 @@ oekotest.de##div[style="clear: both; min-height: 300px;"]
 oekotest.de##div[style="clear: both; min-height: 640px;"]
 oekotest.de##div[style="clear:both; display:block; min-height: 300px;"]
 oekotest.de##div[style="clear:both; display:block; min-height: 640px;"]
+chip.de##div[style="display: block;"] > a[href^="https://x.chip.de/intern/dl/?"]
 wirtschaftslexikon24.com##div[style="float:left;clear:left;height:620px;width:180px;padding-top:15px;"]
 breakpoint.untergrund.net##div[style="float:right; width: 110px; margin-left: 15px; margin-top: 12px; margin-bottom: 15px; padding: 2px 6px; text-align: center; border: 1px solid black; background:white; line-height: 2em; color: black;"]
 pixelio.de##div[style="float:right; width: 300px; height: 250px"]
@@ -11682,9 +11685,11 @@ tag24.de#?#article.article-tile:-abp-has(span.article-tile__badge2:-abp-contains
 tonight.de#?#.td_block_wrap:-abp-has(a:-abp-contains(Anzeige))
 um-tv.de#?#.small-12.column.space:-abp-has(p:-abp-contains(--Anzeige--))
 unicum.de#?#.artikel-preview-content:-abp-has(p:-abp-contains(-ANZEIGE-))
+wallstreet-online.de#?#.breakingNewsOfferteBox:-abp-has(span.offerteFlag)
 wallstreet-online.de#?#.footnote:-abp-has(.headline-box:-abp-contains(Werbung))
 wallstreet-online.de#?#.module.c1.hidden-xs:-abp-has(span.issuerPromotionHint:-abp-contains(Werbung))
 wallstreet-online.de#?#.newsflash:-abp-has(span.suffix.wo-inline-block.pull-right:-abp-contains(Anzeige))
+wallstreet-online.de#?#.newsflash:-abp-has(span.wo-inline-block:-abp-contains(Anzeige))
 wallstreet-online.de#?#.sliderItem.active:-abp-has(span.news-item:-abp-has(img[alt="Anzeige"]))
 wallstreet-online.de#?#.teaser.objectfit:-abp-has(div.angebot)
 wallstreet-online.de#?#.teaser.objectfit:-abp-has(div.anzeige)

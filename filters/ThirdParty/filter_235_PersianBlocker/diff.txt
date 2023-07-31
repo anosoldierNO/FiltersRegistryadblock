@@ -4,8 +4,8 @@ xip.li##.form-inline:others()
 /files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com|ana.press|niniban.com|vananews.com|barghnews.com
 ! Rule "/files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news" converted to: "/files/adv^$image,~third-party,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news"
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
-! Rule "/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com" converted to: "/wp-content/uploads/*.gif^$image,~third-party,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com"
-/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com
+! Rule "/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com" converted to: "/wp-content/uploads/*.gif^$image,~third-party,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com"
+/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com
 ! Rule "||websocket.*/?u=*&s=$websocket,1p,strict3p" converted to: "||websocket.*/?u=*&s=$websocket,~third-party,strict3p"
 ||websocket.*/?u=*&s=$websocket,1p,strict3p
 ! Rule "/wp-admin/admin-ajax.php?postviews_id=$xhr,1p" converted to: "/wp-admin/admin-ajax.php?postviews_id=$xmlhttprequest,~third-party"
@@ -48,6 +48,8 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||linksaz.net^$3p
 ! Rule "||linkyar.com^$3p" converted to: "||linkyar.com^$third-party"
 ||linkyar.com^$3p
+! Rule "||service.mytosheh.com^$3p" converted to: "||service.mytosheh.com^$third-party"
+||service.mytosheh.com^$3p
 ! Rule "||nastooh.ir^$3p" converted to: "||nastooh.ir^$third-party"
 ||nastooh.ir^$3p
 ! Rule "||peyvandha.ir^$3p" converted to: "||peyvandha.ir^$third-party"
@@ -250,6 +252,8 @@ borna.news##.second_col, .n_second_col:style(width: 30% !important;)
 @@||chetor.com/wp-content/uploads/2016/04/instagram-banner.chetor-media2.gif$image,1p
 ! Rule "@@||chetor.com/wp-content/uploads/2021/07/book-banner.1250.240.2.gif$image,1p" converted to: "@@||chetor.com/wp-content/uploads/2021/07/book-banner.1250.240.2.gif$image,~third-party"
 @@||chetor.com/wp-content/uploads/2021/07/book-banner.1250.240.2.gif$image,1p
+! Rule "cafebazaar.ir##html:style(overflow: auto !important;)" converted to: "cafebazaar.ir#$#html { overflow: auto !important; }"
+cafebazaar.ir##html:style(overflow: auto !important;)
 ! Unable to convert rule to AdGuard syntax: coffeeapps.ir##^script[id^="wpcp_"]
 coffeeapps.ir##^script[id^="wpcp_"]
 ! Rule "coffeeapps.ir##body:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)" converted to: "coffeeapps.ir#$#body { cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important; }"
@@ -618,6 +622,22 @@ rasm.io##[class*="hsCode_LimitedItem"]:style(-webkit-filter: none !important; fi
 rouydad24.ir##.container, .main:style(width: 95% !important;)
 ! Rule "rokna.net##.top_fixed_mob:remove()" converted to: "rokna.net#$?#.top_fixed_mob { remove: true; }"
 rokna.net##.top_fixed_mob:remove()
+! Rule "sclinic.ir##^script:has-text(document.oncontextmenu =)" converted to: "sclinic.ir$$script[tag-content="document.oncontextmenu ="][max-length="262144"]"
+sclinic.ir##^script:has-text(document.oncontextmenu =)
+! Unable to convert rule to AdGuard syntax: sclinic.ir##^script[id^="wpcp_"]
+sclinic.ir##^script[id^="wpcp_"]
+! Rule "sclinic.ir##body:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)" converted to: "sclinic.ir#$#body { cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important; }"
+sclinic.ir##body:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
+! Unable to convert rule to AdGuard syntax: sclinic.ir##^style:has-text(@media print)
+sclinic.ir##^style:has-text(@media print)
+! Rule "sclinic.ir##+js(rmnt, script, document.oncontextmenu =)" converted to: "sclinic.ir#%#//scriptlet('ubo-rmnt.js', 'script', 'document.oncontextmenu =')"
+sclinic.ir##+js(rmnt, script, document.oncontextmenu =)
+! Rule "sclinic.ir##+js(aopr, nocontext)" converted to: "sclinic.ir#%#//scriptlet('ubo-aopr.js', 'nocontext')"
+sclinic.ir##+js(aopr, nocontext)
+! Rule "sclinic.ir##+js(acs, disableSelection, reEnable)" converted to: "sclinic.ir#%#//scriptlet('ubo-acs.js', 'disableSelection', 'reEnable')"
+sclinic.ir##+js(acs, disableSelection, reEnable)
+! Rule "sclinic.ir##style:has-text(@media print):remove()" converted to: "sclinic.ir#$?#style:has-text(@media print) { remove: true; }"
+sclinic.ir##style:has-text(@media print):remove()
 ! Rule "||cdn.sargarme.com/uploads/*.gif$image,1p" converted to: "||cdn.sargarme.com/uploads/*.gif$image,~third-party"
 ||cdn.sargarme.com/uploads/*.gif$image,1p
 ! Rule "||sobhtazeh.news/rss-file.php^$xhr" converted to: "||sobhtazeh.news/rss-file.php^$xmlhttprequest"
@@ -744,6 +764,40 @@ tamasha.com##+js(cookie-remover, tracker_visitor_id)
 technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 100% !important; margin-right: 0 !important;)
 ! Rule "^utm_source=Torob^$doc,removeparam=/^utm_/" converted to: "^utm_source=Torob^$document,removeparam=/^utm_/"
 ^utm_source=Torob^$doc,removeparam=/^utm_/
+! Rule "||api.torob.com^$xhr,1p,removeparam=android_app_ver" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=android_app_ver"
+||api.torob.com^$xhr,1p,removeparam=android_app_ver
+! Rule "||api.torob.com^$xhr,1p,removeparam=pre_prk" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=pre_prk"
+||api.torob.com^$xhr,1p,removeparam=pre_prk
+! Rule "||api.torob.com^$xhr,1p,removeparam=source" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=source"
+||api.torob.com^$xhr,1p,removeparam=source
+! Rule "||api.torob.com^$xhr,1p,removeparam=uid" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=uid"
+||api.torob.com^$xhr,1p,removeparam=uid
+! Rule "||api.torob.com^$xhr,1p,removeparam=discover_method" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=discover_method"
+||api.torob.com^$xhr,1p,removeparam=discover_method
+! Rule "||api.torob.com^$xhr,1p,removeparam=_bt__experiment" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=_bt__experiment"
+||api.torob.com^$xhr,1p,removeparam=_bt__experiment
+! Rule "||api.torob.com^$xhr,1p,removeparam=suid" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=suid"
+||api.torob.com^$xhr,1p,removeparam=suid
+! Rule "||api.torob.com^$xhr,1p,removeparam=bvid" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=bvid"
+||api.torob.com^$xhr,1p,removeparam=bvid
+! Rule "||api.torob.com^$xhr,1p,removeparam=session_id" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=session_id"
+||api.torob.com^$xhr,1p,removeparam=session_id
+! Rule "||api.torob.com^$xhr,1p,removeparam=is_adv" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=is_adv"
+||api.torob.com^$xhr,1p,removeparam=is_adv
+! Rule "||api.torob.com^$xhr,1p,removeparam=btn" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=btn"
+||api.torob.com^$xhr,1p,removeparam=btn
+! Rule "||api.torob.com^$xhr,1p,removeparam=shop_rank" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=shop_rank"
+||api.torob.com^$xhr,1p,removeparam=shop_rank
+! Rule "||api.torob.com^$xhr,1p,removeparam=device" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=device"
+||api.torob.com^$xhr,1p,removeparam=device
+! Rule "||api.torob.com^$xhr,1p,removeparam=_url_referrer" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=_url_referrer"
+||api.torob.com^$xhr,1p,removeparam=_url_referrer
+! Rule "||api.torob.com^$xhr,1p,removeparam=_http_referrer" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=_http_referrer"
+||api.torob.com^$xhr,1p,removeparam=_http_referrer
+! Rule "||api.torob.com^$xhr,1p,removeparam=_ft__shop_score" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=_ft__shop_score"
+||api.torob.com^$xhr,1p,removeparam=_ft__shop_score
+! Rule "||api.torob.com^$xhr,1p,removeparam=_ft__ab_test" converted to: "||api.torob.com^$xmlhttprequest,~third-party,removeparam=_ft__ab_test"
+||api.torob.com^$xhr,1p,removeparam=_ft__ab_test
 ! Rule "takmili.com##+js(acis, document.oncontextmenu)" converted to: "takmili.com#%#//scriptlet('ubo-acis.js', 'document.oncontextmenu')"
 takmili.com##+js(acis, document.oncontextmenu)
 ! Rule "takmili.com##+js(set, disable_copy, noopFunc)" converted to: "takmili.com#%#//scriptlet('ubo-set.js', 'disable_copy', 'noopFunc')"
@@ -816,6 +870,10 @@ uploadboy.com##+js(cookie-remover, /captcha_key|last_file|_scrs_/)
 uploadboy.com##input[type="hidden"]:is(input[name="usr_login"],input[name="referer"], input#usr_resolution, input#usr_os, input#usr_browser):remove()
 ! Rule "uploadboy.com##body:style(overflow: auto !important;)" converted to: "uploadboy.com#$#body { overflow: auto !important; }"
 uploadboy.com##body:style(overflow: auto !important;)
+! Rule ".gif^$image,3p,domain=varandaz.com" converted to: ".gif^$image,third-party,domain=varandaz.com"
+.gif^$image,3p,domain=varandaz.com
+! Rule "||varandaz.com/ifrah^$frame,1p" converted to: "||varandaz.com/ifrah^$subdocument,~third-party"
+||varandaz.com/ifrah^$frame,1p
 ! Rule "vakil.net##+js(acis, document.oncontextmenu)" converted to: "vakil.net#%#//scriptlet('ubo-acis.js', 'document.oncontextmenu')"
 vakil.net##+js(acis, document.oncontextmenu)
 ! Rule "vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)" converted to: "vakil.net#$#* { -webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; }"
@@ -836,6 +894,8 @@ yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
 *$frame,domain=yun.ir
 ! Rule "yeknet.ir##+js(aopr, needpop)" converted to: "yeknet.ir#%#//scriptlet('ubo-aopr.js', 'needpop')"
 yeknet.ir##+js(aopr, needpop)
+! Rule "||cdnfa.com/*.gif^$image,3p,domain=zendegionline.ir" converted to: "||cdnfa.com/*.gif^$image,third-party,domain=zendegionline.ir"
+||cdnfa.com/*.gif^$image,3p,domain=zendegionline.ir
 ! Rule "||zinofilm.ir/wp-json/wp-statistics^$xhr,1p" converted to: "||zinofilm.ir/wp-json/wp-statistics^$xmlhttprequest,~third-party"
 ||zinofilm.ir/wp-json/wp-statistics^$xhr,1p
 ! Rule "||zibamoon.com/Files/Ads/$image,1p" converted to: "||zibamoon.com/Files/Ads/$image,~third-party"

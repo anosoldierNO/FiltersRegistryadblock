@@ -2921,6 +2921,8 @@ iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.co
 !
 ! SECTION: Regular rules
 !
+svetmobilne.cz##.mobile
+freesoft-100.com###relational_tag
 precious.jp##.pickup-column-wrap
 vogue.com.au##.show-when-loading
 eromanga-castle.com##iframe[height="320px"][width="320px"]
@@ -2944,8 +2946,8 @@ jagranjosh.com##.stickyTop
 jagranjosh.com##.btf
 gadget.phileweb.com##div.sp__singleBanner
 english.tupaki.com##body #detail_1
-insideevs.com##.apInarticleSmallRes
-insideevs.com###container_3rd_party_service
+rideapart.com,insideevs.com##.apInarticleSmallRes
+rideapart.com,insideevs.com###container_3rd_party_service
 superluchas.com###AbovePostPlacementWrapper
 superluchas.com##.custom-html
 ||blogterest.net/regular/?i=$subdocument
@@ -4365,7 +4367,7 @@ vokrug.tv###GPM_vokrugtv_M_300x250_Top
 tvjapan.net###bg-ad-mob
 sport.de###topbanner-mobile
 tabootube.xxx##.wrap-spot
-tora-kekkon.com,m.eprice.com.tw,dodoyo.jp,life-alright.com,bookwiz.me,yasasiikurasi.com,tabootube.xxx,ba-ro-4869.com,jeep-m.jp,aquarium-suisou.net##.sponsor
+lifematome.blog,tora-kekkon.com,m.eprice.com.tw,dodoyo.jp,life-alright.com,bookwiz.me,yasasiikurasi.com,tabootube.xxx,ba-ro-4869.com,jeep-m.jp,aquarium-suisou.net##.sponsor
 profile.ru##div[data-typeitem="ad"]
 rbc.ua##.adsens-wrap
 app.famitsu.com##.ad-agency-area

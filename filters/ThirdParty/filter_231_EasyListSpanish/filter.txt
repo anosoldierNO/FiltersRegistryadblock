@@ -1,8 +1,8 @@
 !
-! Checksum: gFJse+iCAUNbumJb+tdQZw
-! OriginalVersion: 202307281231
+! Checksum: tbBX9+r6gS78hVFqYizJtw
+! OriginalVersion: 202307310831
 ! Title: EasyList Spanish
-! Last modified: 28 Jul 2023 12:31 UTC
+! Last modified: 31 Jul 2023 08:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1592,6 +1592,7 @@ gacetinmadrid.com,noticiasformosa.com.ar##.widget_media_image
 naciodigital.cat##.zona-ajbcn
 naciodigital.cat##.zona-lacaixa
 carrefour.es##[id*="-sponsored_products-"]
+grantorrent.zip##[onclick^="AbrirEnlaceStar('"]
 cinelibreonline.com##a > img[alt^="Ganar"]
 manomano.es##a[class*="sponsoredProductCard"]
 kissfm.es##a[href*="/linkout/"]

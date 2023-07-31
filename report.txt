@@ -1,9 +1,9 @@
 
-FiltersCompiler report 7/28/2023 1:00:18 PM:
+FiltersCompiler report 7/31/2023 9:00:15 AM:
 
 Filter ID: 101
 Filter name: EasyList
-Compiled rules: 62627
+Compiled rules: 62571
 Excluded rules: 52
 URL: https://secure.fanboy.co.nz/easylist.txt
 INVALID RULES:
@@ -12,7 +12,7 @@ Error: "Unknown modifier: webrtc" in the rule: "$webrtc,domain=ack.net|allthetes
 ---------------------------
 Filter ID: 102
 Filter name: ABPindo
-Compiled rules: 9060
+Compiled rules: 9091
 Excluded rules: 14
 URL: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
 All rules are valid.
@@ -26,7 +26,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 104
 Filter name: EasyList China
-Compiled rules: 19925
+Compiled rules: 19967
 Excluded rules: 54
 URL: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 INVALID RULES:
@@ -50,7 +50,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 107
 Filter name: EasyList Germany
-Compiled rules: 5279
+Compiled rules: 5284
 Excluded rules: 12
 URL: https://easylist.to/easylistgermany/easylistgermany.txt
 All rules are valid.
@@ -67,7 +67,7 @@ Error: Invalid selector: '^script:has-text((window)}catch)' -- Error: unable to 
 ---------------------------
 Filter ID: 109
 Filter name: EasyList Italy
-Compiled rules: 7451
+Compiled rules: 7308
 Excluded rules: 2
 URL: https://easylist-downloads.adblockplus.org/easylistitaly.txt
 INVALID RULES:
@@ -128,7 +128,7 @@ URL: https://raw.githubusercontent.com/KonoromiHimaries/PolishSubFilters/master/
 ---------------------------
 Filter ID: 118
 Filter name: EasyPrivacy
-Compiled rules: 33819
+Compiled rules: 33839
 Excluded rules: 12
 URL: https://easylist.to/easylist/easyprivacy.txt
 All rules are valid.
@@ -140,8 +140,8 @@ URL: https://adblock.gardar.net/is.abp.txt
 ---------------------------
 Filter ID: 120
 Filter name: AdBlockID
-Compiled rules: 5378
-Excluded rules: 1394
+Compiled rules: 5389
+Excluded rules: 1396
 URL: https://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt
 All rules are valid.
 ---------------------------
@@ -154,14 +154,14 @@ All rules are valid.
 ---------------------------
 Filter ID: 122
 Filter name: Fanboy's Annoyances
-Compiled rules: 53383
-Excluded rules: 9396
+Compiled rules: 53219
+Excluded rules: 9364
 URL: https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt
 All rules are valid.
 ---------------------------
 Filter ID: 123
 Filter name: Fanboy's Social Blocking List
-Compiled rules: 14861
+Compiled rules: 14873
 Excluded rules: 0
 URL: https://easylist-downloads.adblockplus.org/fanboy-social.txt
 All rules are valid.
@@ -194,7 +194,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 203
 Filter name: Hungarian filter
-Compiled rules: 1919
+Compiled rules: 1916
 Excluded rules: 0
 URL: https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-adguard.txt
 All rules are valid.
@@ -229,7 +229,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 208
 Filter name: Online Malicious URL Blocklist
-Compiled rules: 3168
+Compiled rules: 3116
 Excluded rules: 20
 URL: https://urlhaus-filter.pages.dev/urlhaus-filter-ag-online.txt
 All rules are valid.
@@ -323,7 +323,7 @@ URL: https://easylist-downloads.adblockplus.org/bitblock.txt
 ---------------------------
 Filter ID: 214
 Filter name: ABPVN List
-Compiled rules: 2949
+Compiled rules: 2947
 Excluded rules: 12
 URL: https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt
 All rules are valid.
@@ -433,7 +433,7 @@ URL: https://www.fanboy.co.nz/fanboy-swedish.txt
 ---------------------------
 Filter ID: 225
 Filter name: Fanboy's Anti-Facebook List
-Compiled rules: 100
+Compiled rules: 101
 Excluded rules: 0
 URL: https://www.fanboy.co.nz/fanboy-antifacebook.txt
 All rules are valid.
@@ -445,7 +445,7 @@ URL: https://www.fanboy.co.nz/fanboy-vietnam.txt
 ---------------------------
 Filter ID: 227
 Filter name: List-KR
-Compiled rules: 3318
+Compiled rules: 3309
 Excluded rules: 16
 URL: https://raw.githubusercontent.com/List-KR/List-KR/master/filter-AdGuard.txt
 All rules are valid.
@@ -459,7 +459,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 229
 Filter name: I don't care about cookies
-Compiled rules: 24205
+Compiled rules: 24210
 Excluded rules: 0
 URL: https://www.i-dont-care-about-cookies.eu/abp/
 All rules are valid.
@@ -471,14 +471,14 @@ URL: https://fanboy.co.nz/fanboy-espanol.txt
 ---------------------------
 Filter ID: 231
 Filter name: EasyList Spanish
-Compiled rules: 2853
+Compiled rules: 2854
 Excluded rules: 4
 URL: https://easylist-downloads.adblockplus.org/easylistspanish.txt
 All rules are valid.
 ---------------------------
 Filter ID: 232
 Filter name: KAD - Anti-Scam
-Compiled rules: 80027
+Compiled rules: 80306
 Excluded rules: 238
 URL: https://raw.githubusercontent.com/FiltersHeroes/KAD/master/KAD.txt
 All rules are valid.
@@ -499,8 +499,8 @@ All rules are valid.
 ---------------------------
 Filter ID: 235
 Filter name: Persian Blocker
-Compiled rules: 2993
-Excluded rules: 1472
+Compiled rules: 3022
+Excluded rules: 1532
 URL: https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlocker.txt
 INVALID RULES:
 Error: "Unknown modifier: strict3p" in the rule: "||websocket.*/?u=*&s=$websocket,~third-party,strict3p"
@@ -526,8 +526,8 @@ Error: "Invalid cosmetic rule, wrong brackets" in the rule: "science.hotnews.ro#
 ---------------------------
 Filter ID: 237
 Filter name: Polish Annoyances Filters
-Compiled rules: 13045
-Excluded rules: 1998
+Compiled rules: 13061
+Excluded rules: 2002
 URL: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PPB.txt
 INVALID RULES:
 Error: Invalid selector: '.fb-customerchat, .fb_dialog_advanced##.fb-customerchat' -- Error: unable to select by '.fb_dialog_advanced##.fb-customerchat' — '.fb_dialog_advanced##.fb-customerchat' is not a valid selector in rule: beko.com##.fb-customerchat, .fb_dialog_advanced##.fb-customerchat
@@ -600,18 +600,83 @@ URL: https://paulgb.github.io/BarbBlock/blacklists/adblock-plus.txt
 ---------------------------
 Filter ID: 241
 Filter name: EasyList Cookie List
-Compiled rules: 28155
-Excluded rules: 2016
+Compiled rules: 28023
+Excluded rules: 2080
 URL: https://www.fanboy.co.nz/fanboy-cookiemonster.txt
 INVALID RULES:
 Error: Invalid selector: '+js(set-cookie, kali-cc-agreed, true)' -- '+js(set-cookie, kali-cc-agreed, true)' is not a valid selector in rule: clearblue.com##+js(set-cookie, kali-cc-agreed, true)
-Error: Invalid selector: '+js(set-cookie, cookieConsent, true, reload, ,1)' -- '+js(set-cookie, cookieConsent, true, reload, ,1)' is not a valid selector in rule: bayernportal.de##+js(set-cookie, cookieConsent, true, reload, ,1)
 Error: Invalid selector: '+js(set-cookie, legalOk, true)' -- '+js(set-cookie, legalOk, true)' is not a valid selector in rule: qwice.com##+js(set-cookie, legalOk, true)
+Error: Invalid selector: '+js(set-cookie, shb-consent-cookies, true)' -- '+js(set-cookie, shb-consent-cookies, true)' is not a valid selector in rule: handelsbanken.se##+js(set-cookie, shb-consent-cookies, true)
+Error: Invalid selector: '+js(set-cookie, ui-tnc-agreed, true)' -- '+js(set-cookie, ui-tnc-agreed, true)' is not a valid selector in rule: rule34.paheal.net##+js(set-cookie, ui-tnc-agreed, true)
+Error: Invalid selector: '+js(set-cookie, cookieconsent_status_new, 3)' -- '+js(set-cookie, cookieconsent_status_new, 3)' is not a valid selector in rule: oead.at,innovationsstiftung-bildung.at,etwinning.at,arqa-vet.at,zentrumfuercitizenscience.at,vorstudienlehrgang.at,erasmusplus.at##+js(set-cookie, cookieconsent_status_new, 3)
+Error: Invalid selector: '+js(set-cookie, _acceptCookies, 1)' -- '+js(set-cookie, _acceptCookies, 1)' is not a valid selector in rule: jeger.pl##+js(set-cookie, _acceptCookies, 1)
+Error: Invalid selector: '+js(set-cookie, _reiff-consent-cookie, yes)' -- '+js(set-cookie, _reiff-consent-cookie, yes)' is not a valid selector in rule: bo.de##+js(set-cookie, _reiff-consent-cookie, yes)
+Error: Invalid selector: '+js(set-cookie, isReadCookiePolicyDNTAa, true)' -- '+js(set-cookie, isReadCookiePolicyDNTAa, true)' is not a valid selector in rule: asus.com.cn,zentalk.asus.com##+js(set-cookie, isReadCookiePolicyDNTAa, true)
+Error: Invalid selector: '+js(set-cookie, mubi-cookie-consent, allow)' -- '+js(set-cookie, mubi-cookie-consent, allow)' is not a valid selector in rule: mubi.com##+js(set-cookie, mubi-cookie-consent, allow)
+Error: Invalid selector: '+js(set-cookie, isReadCookiePolicyDNT, Yes)' -- '+js(set-cookie, isReadCookiePolicyDNT, Yes)' is not a valid selector in rule: asus.com.cn,zentalk.asus.com##+js(set-cookie, isReadCookiePolicyDNT, Yes)
+Error: Invalid selector: '+js(set-cookie, ce-cookie, N)' -- '+js(set-cookie, ce-cookie, N)' is not a valid selector in rule: carsupermarket.com##+js(set-cookie, ce-cookie, N)
+Error: Invalid selector: '+js(set-cookie, ivc_consent, 3)' -- '+js(set-cookie, ivc_consent, 3)' is not a valid selector in rule: lawrievetgroup.co.uk##+js(set-cookie, ivc_consent, 3)
+Error: Invalid selector: '+js(set-cookie, cookie_accepted, 1)' -- '+js(set-cookie, cookie_accepted, 1)' is not a valid selector in rule: 59northwheels.se##+js(set-cookie, cookie_accepted, 1)
+Error: Invalid selector: '+js(set-cookie, UserCookieLevel, 1)' -- '+js(set-cookie, UserCookieLevel, 1)' is not a valid selector in rule: dhbbank.com,dhbbank.de,dhbbank.be,dhbbank.nl##+js(set-cookie, UserCookieLevel, 1)
+Error: Invalid selector: '+js(set-cookie, sat_track, false)' -- '+js(set-cookie, sat_track, false)' is not a valid selector in rule: login.ingbank.pl##+js(set-cookie, sat_track, false)
+Error: Invalid selector: '+js(set-cookie, Rodo, 1)' -- '+js(set-cookie, Rodo, 1)' is not a valid selector in rule: fabrykacukiernika.pl##+js(set-cookie, Rodo, 1)
+Error: Invalid selector: '+js(set-cookie, cookie_privacy_on, 1)' -- '+js(set-cookie, cookie_privacy_on, 1)' is not a valid selector in rule: fabrykacukiernika.pl##+js(set-cookie, cookie_privacy_on, 1)
+Error: Invalid selector: '+js(set-cookie, cookies-marketing, false)' -- '+js(set-cookie, cookies-marketing, false)' is not a valid selector in rule: playlumi.com##+js(set-cookie, cookies-marketing, false)
+Error: Invalid selector: '+js(set-cookie, cookies-functional, true)' -- '+js(set-cookie, cookies-functional, true)' is not a valid selector in rule: playlumi.com##+js(set-cookie, cookies-functional, true)
+Error: Invalid selector: '+js(set-cookie, cookies-preferences, false)' -- '+js(set-cookie, cookies-preferences, false)' is not a valid selector in rule: playlumi.com##+js(set-cookie, cookies-preferences, false)
+Error: Invalid selector: '+js(set-cookie, __cf_gdpr_accepted, false)' -- '+js(set-cookie, __cf_gdpr_accepted, false)' is not a valid selector in rule: chatfuel.com##+js(set-cookie, __cf_gdpr_accepted, false)
+Error: Invalid selector: '+js(set-cookie, 3t-cookies-essential, 1)' -- '+js(set-cookie, 3t-cookies-essential, 1)' is not a valid selector in rule: studio3t.com##+js(set-cookie, 3t-cookies-essential, 1)
+Error: Invalid selector: '+js(set-cookie, 3t-cookies-functional, 1)' -- '+js(set-cookie, 3t-cookies-functional, 1)' is not a valid selector in rule: studio3t.com##+js(set-cookie, 3t-cookies-functional, 1)
+Error: Invalid selector: '+js(set-cookie, 3t-cookies-performance, 0)' -- '+js(set-cookie, 3t-cookies-performance, 0)' is not a valid selector in rule: studio3t.com##+js(set-cookie, 3t-cookies-performance, 0)
+Error: Invalid selector: '+js(set-cookie, 3t-cookies-social, 0)' -- '+js(set-cookie, 3t-cookies-social, 0)' is not a valid selector in rule: studio3t.com##+js(set-cookie, 3t-cookies-social, 0)
+Error: Invalid selector: '+js(set-cookie, allow_cookies_marketing, 0)' -- '+js(set-cookie, allow_cookies_marketing, 0)' is not a valid selector in rule: realgap.co.uk##+js(set-cookie, allow_cookies_marketing, 0)
+Error: Invalid selector: '+js(set-cookie, allow_cookies_tracking, 0)' -- '+js(set-cookie, allow_cookies_tracking, 0)' is not a valid selector in rule: realgap.co.uk##+js(set-cookie, allow_cookies_tracking, 0)
+Error: Invalid selector: '+js(set-cookie, cookie_prompt_dismissed, 1)' -- '+js(set-cookie, cookie_prompt_dismissed, 1)' is not a valid selector in rule: realgap.co.uk##+js(set-cookie, cookie_prompt_dismissed, 1)
+Error: Invalid selector: '+js(set-cookie, cookies_enabled, 1)' -- '+js(set-cookie, cookies_enabled, 1)' is not a valid selector in rule: realgap.co.uk##+js(set-cookie, cookies_enabled, 1)
+Error: Invalid selector: '+js(set-cookie, cookie, 1, , reload, 1)' -- '+js(set-cookie, cookie, 1, , reload, 1)' is not a valid selector in rule: hotelborgia.com##+js(set-cookie, cookie, 1, , reload, 1)
+Error: Invalid selector: '+js(set-cookie, cookie-analytics, 0)' -- '+js(set-cookie, cookie-analytics, 0)' is not a valid selector in rule: hotelborgia.com##+js(set-cookie, cookie-analytics, 0)
+Error: Invalid selector: '+js(set-cookie, cc-set, 1, , reload, 1)' -- '+js(set-cookie, cc-set, 1, , reload, 1)' is not a valid selector in rule: sweet24.de##+js(set-cookie, cc-set, 1, , reload, 1)
+Error: Invalid selector: '+js(set-cookie, rgp-gdpr-policy, 1)' -- '+js(set-cookie, rgp-gdpr-policy, 1)' is not a valid selector in rule: flixclassic.pl##+js(set-cookie, rgp-gdpr-policy, 1)
+Error: Invalid selector: '+js(set-cookie, jt-jobseeker-gdpr-banner, true, , reload, 1)' -- '+js(set-cookie, jt-jobseeker-gdpr-banner, true, , reload, 1)' is not a valid selector in rule: jobtoday.com##+js(set-cookie, jt-jobseeker-gdpr-banner, true, , reload, 1)
+Error: Invalid selector: '+js(set-cookie, cookie-preferences-analytics, no)' -- '+js(set-cookie, cookie-preferences-analytics, no)' is not a valid selector in rule: deltatre.com##+js(set-cookie, cookie-preferences-analytics, no)
+Error: Invalid selector: '+js(set-cookie, cookie-preferences-marketing, no)' -- '+js(set-cookie, cookie-preferences-marketing, no)' is not a valid selector in rule: deltatre.com##+js(set-cookie, cookie-preferences-marketing, no)
+Error: Invalid selector: '+js(set-cookie, withings_cookieconsent_dismissed, 1)' -- '+js(set-cookie, withings_cookieconsent_dismissed, 1)' is not a valid selector in rule: withings.com##+js(set-cookie, withings_cookieconsent_dismissed, 1)
+Error: Invalid selector: '+js(set-cookie, cookieconsent_advertising, false)' -- '+js(set-cookie, cookieconsent_advertising, false)' is not a valid selector in rule: withings.com##+js(set-cookie, cookieconsent_advertising, false)
+Error: Invalid selector: '+js(set-cookie, cookieconsent_statistics, false)' -- '+js(set-cookie, cookieconsent_statistics, false)' is not a valid selector in rule: withings.com##+js(set-cookie, cookieconsent_statistics, false)
+Error: Invalid selector: '+js(set-cookie, CP_ESSENTIAL, 1)' -- '+js(set-cookie, CP_ESSENTIAL, 1)' is not a valid selector in rule: gift.be##+js(set-cookie, CP_ESSENTIAL, 1)
+Error: Invalid selector: '+js(set-cookie, CP_PREFERENCES, 1)' -- '+js(set-cookie, CP_PREFERENCES, 1)' is not a valid selector in rule: gift.be##+js(set-cookie, CP_PREFERENCES, 1)
+Error: Invalid selector: '+js(set-cookie, amcookie_allowed, 1)' -- '+js(set-cookie, amcookie_allowed, 1)' is not a valid selector in rule: animaze.us##+js(set-cookie, amcookie_allowed, 1)
+Error: Invalid selector: '+js(set-cookie, pc_analitica_bizkaia, false)' -- '+js(set-cookie, pc_analitica_bizkaia, false)' is not a valid selector in rule: bizkaia.eus##+js(set-cookie, pc_analitica_bizkaia, false)
+Error: Invalid selector: '+js(set-cookie, pc_preferencias_bizkaia, true)' -- '+js(set-cookie, pc_preferencias_bizkaia, true)' is not a valid selector in rule: bizkaia.eus##+js(set-cookie, pc_preferencias_bizkaia, true)
+Error: Invalid selector: '+js(set-cookie, pc_tecnicas_bizkaia, true)' -- '+js(set-cookie, pc_tecnicas_bizkaia, true)' is not a valid selector in rule: bizkaia.eus##+js(set-cookie, pc_tecnicas_bizkaia, true)
+Error: Invalid selector: '+js(set-cookie, gdrp_popup_showed, 1)' -- '+js(set-cookie, gdrp_popup_showed, 1)' is not a valid selector in rule: sinparty.com##+js(set-cookie, gdrp_popup_showed, 1)
+Error: Invalid selector: '+js(set-cookie, cookie_consent_accept, true)' -- '+js(set-cookie, cookie_consent_accept, true)' is not a valid selector in rule: jobs.ch,jobup.ch##+js(set-cookie, cookie_consent_accept, true)
+Error: Invalid selector: '+js(set-cookie, cookie-preferences-technical, yes)' -- '+js(set-cookie, cookie-preferences-technical, yes)' is not a valid selector in rule: deltatre.com##+js(set-cookie, cookie-preferences-technical, yes)
+Error: Invalid selector: '+js(set-cookie, gdpr__google__analyticss, false)' -- '+js(set-cookie, gdpr__google__analyticss, false)' is not a valid selector in rule: depop.com##+js(set-cookie, gdpr__google__analyticss, false)
+Error: Invalid selector: '+js(set-cookie, gdpr__depop__functional, true)' -- '+js(set-cookie, gdpr__depop__functional, true)' is not a valid selector in rule: depop.com##+js(set-cookie, gdpr__depop__functional, true)
+Error: Invalid selector: '+js(set-cookie, tracking_cookie, 1)' -- '+js(set-cookie, tracking_cookie, 1)' is not a valid selector in rule: mantel.com##+js(set-cookie, tracking_cookie, 1)
+Error: Invalid selector: '+js(set-cookie, cookie-preference, 2)' -- '+js(set-cookie, cookie-preference, 2)' is not a valid selector in rule: armedangels.com##+js(set-cookie, cookie-preference, 2)
+Error: Invalid selector: '+js(set-cookie, cookie-preference_auto_accept, 1)' -- '+js(set-cookie, cookie-preference_auto_accept, 1)' is not a valid selector in rule: armedangels.com##+js(set-cookie, cookie-preference_auto_accept, 1)
+Error: Invalid selector: '+js(set-cookie, cookie-preference_renew7, 1)' -- '+js(set-cookie, cookie-preference_renew7, 1)' is not a valid selector in rule: armedangels.com##+js(set-cookie, cookie-preference_renew7, 1)
+Error: Invalid selector: '+js(set-cookie, pc234978122321234, 1)' -- '+js(set-cookie, pc234978122321234, 1)' is not a valid selector in rule: e-dojus.lv##+js(set-cookie, pc234978122321234, 1)
+Error: Invalid selector: '+js(set-cookie, ck_pref_all, 1)' -- '+js(set-cookie, ck_pref_all, 1)' is not a valid selector in rule: burnesspaull.com##+js(set-cookie, ck_pref_all, 1)
+Error: Invalid selector: '+js(set-cookie, ONCOSURCOOK, 2)' -- '+js(set-cookie, ONCOSURCOOK, 2)' is not a valid selector in rule: oncosur.org##+js(set-cookie, ONCOSURCOOK, 2)
 Error: Invalid selector: '+js(set-cookie, RY_COOKIE_CONSENT, true)' -- '+js(set-cookie, RY_COOKIE_CONSENT, true)' is not a valid selector in rule: ryanair.com##+js(set-cookie, RY_COOKIE_CONSENT, true)
-Error: Invalid selector: '+js(set-cookie, abz_seo_choosen, 1)' -- '+js(set-cookie, abz_seo_choosen, 1)' is not a valid selector in rule: aqua-store.fr##+js(set-cookie, abz_seo_choosen, 1)
+Error: Invalid selector: '+js(set-cookie, cookieConsent, true, , reload, 1)' -- '+js(set-cookie, cookieConsent, true, , reload, 1)' is not a valid selector in rule: bayernportal.de##+js(set-cookie, cookieConsent, true, , reload, 1)
+Error: Invalid selector: '+js(set-cookie, videoConsent, true)' -- '+js(set-cookie, videoConsent, true)' is not a valid selector in rule: bayernportal.de##+js(set-cookie, videoConsent, true)
 Error: Invalid selector: '+js(set-cookie, comfortConsent, true)' -- '+js(set-cookie, comfortConsent, true)' is not a valid selector in rule: bayernportal.de##+js(set-cookie, comfortConsent, true)
+Error: Invalid selector: '+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)' -- '+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)' is not a valid selector in rule: pricehubble.com##+js(set-cookie, cookieBannerAccepted, 1, , reload, 1)
+Error: Invalid selector: '+js(set-cookie, cookieMsg, true, , reload, 1)' -- '+js(set-cookie, cookieMsg, true, , reload, 1)' is not a valid selector in rule: ilmotorsport.de##+js(set-cookie, cookieMsg, true, , reload, 1)
+Error: Invalid selector: '+js(set-cookie, cookie-preference, 1)' -- '+js(set-cookie, cookie-preference, 1)' is not a valid selector in rule: fleurop.de##+js(set-cookie, cookie-preference, 1)
+Error: Invalid selector: '+js(set-cookie, accept-cookies, true)' -- '+js(set-cookie, accept-cookies, true)' is not a valid selector in rule: monese.com##+js(set-cookie, accept-cookies, true)
+Error: Invalid selector: '+js(set-cookie, abz_seo_choosen, 1)' -- '+js(set-cookie, abz_seo_choosen, 1)' is not a valid selector in rule: aqua-store.fr##+js(set-cookie, abz_seo_choosen, 1)
+Error: Invalid selector: '+js(set-cookie, ARE_DSGVO_PREFERENCES_SUBMITTED, true)' -- '+js(set-cookie, ARE_DSGVO_PREFERENCES_SUBMITTED, true)' is not a valid selector in rule: app.arzt-direkt.de##+js(set-cookie, ARE_DSGVO_PREFERENCES_SUBMITTED, true)
+Error: Invalid selector: '+js(set-cookie, dsgvo_consent, 1)' -- '+js(set-cookie, dsgvo_consent, 1)' is not a valid selector in rule: dasfutterhaus.at##+js(set-cookie, dsgvo_consent, 1)
+Error: Invalid selector: '+js(set-cookie, efile-cookiename-28, 1)' -- '+js(set-cookie, efile-cookiename-28, 1)' is not a valid selector in rule: e-pity.pl##+js(set-cookie, efile-cookiename-28, 1)
+Error: Invalid selector: '+js(set-cookie, efile-cookiename-74, 1)' -- '+js(set-cookie, efile-cookiename-74, 1)' is not a valid selector in rule: fillup.pl##+js(set-cookie, efile-cookiename-74, 1)
+Error: Invalid selector: '+js(set-cookie, cookie_policy_closed, 1, reload, ,1)' -- '+js(set-cookie, cookie_policy_closed, 1, reload, ,1)' is not a valid selector in rule: dailymotion.com##+js(set-cookie, cookie_policy_closed, 1, reload, ,1)
+Error: Invalid selector: '+js(set-cookie, gvCookieConsentAccept, 1, reload, ,1)' -- '+js(set-cookie, gvCookieConsentAccept, 1, reload, ,1)' is not a valid selector in rule: barcawelt.de##+js(set-cookie, gvCookieConsentAccept, 1, reload, ,1)
 Error: Invalid selector: '+js(set-cookie, acceptEssential, 1)' -- '+js(set-cookie, acceptEssential, 1)' is not a valid selector in rule: lueneburger-heide.de##+js(set-cookie, acceptEssential, 1)
-Error: Invalid selector: '+js(set-cookie, trackingConsent, true)' -- '+js(set-cookie, trackingConsent, true)' is not a valid selector in rule: bayernportal.de##+js(set-cookie, trackingConsent, true)
 Error: Invalid selector: '+js(set-cookie, baypol_banner, true)' -- '+js(set-cookie, baypol_banner, true)' is not a valid selector in rule: polizei.bayern.de##+js(set-cookie, baypol_banner, true)
 Error: Invalid selector: '+js(set-cookie, nagAccepted, true)' -- '+js(set-cookie, nagAccepted, true)' is not a valid selector in rule: ourworldofpixels.com##+js(set-cookie, nagAccepted, true)
 Error: Invalid selector: '+js(set-cookie, baypol_functional, true)' -- '+js(set-cookie, baypol_functional, true)' is not a valid selector in rule: polizei.bayern.de##+js(set-cookie, baypol_functional, true)
@@ -619,6 +684,9 @@ Error: Invalid selector: '+js(set-cookie, CookieConsent, OK)' -- '+js(set-cookie
 Error: Invalid selector: '+js(set-cookie, BM_Advertising, false, , reload, 1)' -- '+js(set-cookie, BM_Advertising, false, , reload, 1)' is not a valid selector in rule: backmarket.de,backmarket.co.uk,backmarket.es,backmarket.de,backmarket.be,backmarket.at,backmarket.fr,backmarket.gr,backmarket.fi,backmarket.ie,backmarket.it,backmarket.nl,backmarket.pt,backmarket.se,backmarket.sk,backmarket.com##+js(set-cookie, BM_Advertising, false, , reload, 1)
 Error: Invalid selector: '+js(set-cookie, BM_User_Experience, true)' -- '+js(set-cookie, BM_User_Experience, true)' is not a valid selector in rule: backmarket.de,backmarket.co.uk,backmarket.es,backmarket.de,backmarket.be,backmarket.at,backmarket.fr,backmarket.gr,backmarket.fi,backmarket.ie,backmarket.it,backmarket.nl,backmarket.pt,backmarket.se,backmarket.sk,backmarket.com##+js(set-cookie, BM_User_Experience, true)
 Error: Invalid selector: '+js(set-cookie, BM_Analytics, false)' -- '+js(set-cookie, BM_Analytics, false)' is not a valid selector in rule: backmarket.de,backmarket.co.uk,backmarket.es,backmarket.de,backmarket.be,backmarket.at,backmarket.fr,backmarket.gr,backmarket.fi,backmarket.ie,backmarket.it,backmarket.nl,backmarket.pt,backmarket.se,backmarket.sk,backmarket.com##+js(set-cookie, BM_Analytics, false)
+Error: Invalid selector: '+js(set-cookie, DmCookiesAccepted, true, , reload, 1)' -- '+js(set-cookie, DmCookiesAccepted, true, , reload, 1)' is not a valid selector in rule: eleven-sportswear.cz,silvini.com,silvini.de,purefiji.cz,voda-zdarma.cz,lesgarconsfaciles.com,ulevapronohy.cz,vitalvibe.eu,plavte.cz,mo-tools.cz,flamantonlineshop.cz,sandratex.cz,norwayshop.cz,3d-foto.cz,neviditelnepradlo.cz,nutrimedium.com,silvini.cz,karel.cz,neviditelnepradlo.cz,silvini.sk##+js(set-cookie, DmCookiesAccepted, true, , reload, 1)
+Error: Invalid selector: '+js(set-cookie, DmCookiesMarketing, false)' -- '+js(set-cookie, DmCookiesMarketing, false)' is not a valid selector in rule: eleven-sportswear.cz,silvini.com,silvini.de,purefiji.cz,voda-zdarma.cz,lesgarconsfaciles.com,ulevapronohy.cz,vitalvibe.eu,plavte.cz,mo-tools.cz,flamantonlineshop.cz,sandratex.cz,norwayshop.cz,3d-foto.cz,neviditelnepradlo.cz,nutrimedium.com,silvini.cz,karel.cz,neviditelnepradlo.cz,silvini.sk##+js(set-cookie, DmCookiesMarketing, false)
+Error: Invalid selector: '+js(set-cookie, DmCookiesAnalytics, false)' -- '+js(set-cookie, DmCookiesAnalytics, false)' is not a valid selector in rule: eleven-sportswear.cz,silvini.com,silvini.de,purefiji.cz,voda-zdarma.cz,lesgarconsfaciles.com,ulevapronohy.cz,vitalvibe.eu,plavte.cz,mo-tools.cz,flamantonlineshop.cz,sandratex.cz,norwayshop.cz,3d-foto.cz,neviditelnepradlo.cz,nutrimedium.com,silvini.cz,karel.cz,neviditelnepradlo.cz,silvini.sk##+js(set-cookie, DmCookiesAnalytics, false)
 Error: Invalid selector: '+js(set-cookie, cookietypes, OK)' -- '+js(set-cookie, cookietypes, OK)' is not a valid selector in rule: book-n-drive.de##+js(set-cookie, cookietypes, OK)
 Error: Invalid selector: '+js(set-cookie, consent_setting, OK, , reload, 1)' -- '+js(set-cookie, consent_setting, OK, , reload, 1)' is not a valid selector in rule: cotswoldoutdoor.com##+js(set-cookie, consent_setting, OK, , reload, 1)
 Error: Invalid selector: '+js(set-cookie, user_accepts_cookies, true)' -- '+js(set-cookie, user_accepts_cookies, true)' is not a valid selector in rule: cam.start.canon##+js(set-cookie, user_accepts_cookies, true)
@@ -651,6 +719,7 @@ Error: Invalid selector: '+js(set-cookie, eb_cookie_agree, 1)' -- '+js(set-cooki
 Error: Invalid selector: '+js(set-cookie, sc-cookies-accepted, true)' -- '+js(set-cookie, sc-cookies-accepted, true)' is not a valid selector in rule: snap.com##+js(set-cookie, sc-cookies-accepted, true)
 Error: Invalid selector: '+js(set-cookie, ccpa-notice-viewed-02, true)' -- '+js(set-cookie, ccpa-notice-viewed-02, true)' is not a valid selector in rule: ratemyprofessors.com##+js(set-cookie, ccpa-notice-viewed-02, true)
 Error: Invalid selector: '+js(set-cookie, cookieConsent, yes)' -- '+js(set-cookie, cookieConsent, yes)' is not a valid selector in rule: filen.io##+js(set-cookie, cookieConsent, yes)
+Error: Invalid selector: '+js(set-cookie, cookieConsent, true)' -- '+js(set-cookie, cookieConsent, true)' is not a valid selector in rule: restaurantclub.pl##+js(set-cookie, cookieConsent, true)
 Error: Invalid selector: '+js(set-cookie, dsgvo_consent, 1)' -- '+js(set-cookie, dsgvo_consent, 1)' is not a valid selector in rule: dasfutterhaus.at##+js(set-cookie, dsgvo_consent, 1)
 Error: Invalid selector: '+js(set-cookie, plenty-shop-cookie, 0)' -- '+js(set-cookie, plenty-shop-cookie, 0)' is not a valid selector in rule: stilord.com,stilord.pl,stilord.de,stilord.fr##+js(set-cookie, plenty-shop-cookie, 0)
 Error: Invalid selector: '+js(set-cookie, acceptedPolicy, true)' -- '+js(set-cookie, acceptedPolicy, true)' is not a valid selector in rule: quantamagazine.org##+js(set-cookie, acceptedPolicy, true)
@@ -669,6 +738,7 @@ Error: Invalid selector: '+js(set-cookie, uev2.gg, true)' -- '+js(set-cookie, ue
 Error: Invalid selector: '+js(set-cookie, cookie-preference, 1)' -- '+js(set-cookie, cookie-preference, 1)' is not a valid selector in rule: leki.com##+js(set-cookie, cookie-preference, 1)
 Error: Invalid selector: '+js(set-cookie, closeNotificationAboutCookie, true)' -- '+js(set-cookie, closeNotificationAboutCookie, true)' is not a valid selector in rule: 101internet.ru##+js(set-cookie, closeNotificationAboutCookie, true)
 Error: Invalid selector: '+js(set-cookie, cookie-policy, true)' -- '+js(set-cookie, cookie-policy, true)' is not a valid selector in rule: tunnelmb.net##+js(set-cookie, cookie-policy, true)
+Error: Invalid selector: '+js(set-cookie, allowCookie, 1, , reload, 1)' -- '+js(set-cookie, allowCookie, 1, , reload, 1)' is not a valid selector in rule: hitado.de##+js(set-cookie, allowCookie, 1, , reload, 1)
 Error: Invalid selector: '+js(set-cookie, bitso_cc, 1)' -- '+js(set-cookie, bitso_cc, 1)' is not a valid selector in rule: bitso.com##+js(set-cookie, bitso_cc, 1)
 Error: Invalid selector: '+js(set-cookie, AcceptKeksit, 0, , reload, 1)' -- '+js(set-cookie, AcceptKeksit, 0, , reload, 1)' is not a valid selector in rule: eco-toimistotarvikkeet.fi,proficient.fi##+js(set-cookie, AcceptKeksit, 0, , reload, 1)
 Error: Invalid selector: '+js(set-cookie, cookiepref, true)' -- '+js(set-cookie, cookiepref, true)' is not a valid selector in rule: developer.ing.com##+js(set-cookie, cookiepref, true)
@@ -676,10 +746,14 @@ Error: Invalid selector: '+js(set-cookie, cookieconsent_status, 1)' -- '+js(set-
 Error: Invalid selector: '+js(set-cookie, PVH_COOKIES_GDPR, Accept)' -- '+js(set-cookie, PVH_COOKIES_GDPR, Accept)' is not a valid selector in rule: calvinklein.se,calvinklein.fi,calvinklein.sk,calvinklein.si,calvinklein.ch,calvinklein.ru,calvinklein.com,calvinklein.pt,calvinklein.pl,calvinklein.at,calvinklein.nl,calvinklein.hu,calvinklein.lu,calvinklein.lt,calvinklein.lv,calvinklein.it,calvinklein.ie,calvinklein.hr,calvinklein.fr,calvinklein.es,calvinklein.ee,calvinklein.de,calvinklein.dk,calvinklein.cz,calvinklein.bg,calvinklein.be,calvinklein.co.uk##+js(set-cookie, PVH_COOKIES_GDPR, Accept)
 Error: Invalid selector: '+js(set-cookie, PVH_COOKIES_GDPR_SOCIALMEDIA, Reject)' -- '+js(set-cookie, PVH_COOKIES_GDPR_SOCIALMEDIA, Reject)' is not a valid selector in rule: calvinklein.se,calvinklein.fi,calvinklein.sk,calvinklein.si,calvinklein.ch,calvinklein.ru,calvinklein.com,calvinklein.pt,calvinklein.pl,calvinklein.at,calvinklein.nl,calvinklein.hu,calvinklein.lu,calvinklein.lt,calvinklein.lv,calvinklein.it,calvinklein.ie,calvinklein.hr,calvinklein.fr,calvinklein.es,calvinklein.ee,calvinklein.de,calvinklein.dk,calvinklein.cz,calvinklein.bg,calvinklein.be,calvinklein.co.uk##+js(set-cookie, PVH_COOKIES_GDPR_SOCIALMEDIA, Reject)
 Error: Invalid selector: '+js(set-cookie, PVH_COOKIES_GDPR_ANALYTICS, Reject)' -- '+js(set-cookie, PVH_COOKIES_GDPR_ANALYTICS, Reject)' is not a valid selector in rule: calvinklein.se,calvinklein.fi,calvinklein.sk,calvinklein.si,calvinklein.ch,calvinklein.ru,calvinklein.com,calvinklein.pt,calvinklein.pl,calvinklein.at,calvinklein.nl,calvinklein.hu,calvinklein.lu,calvinklein.lt,calvinklein.lv,calvinklein.it,calvinklein.ie,calvinklein.hr,calvinklein.fr,calvinklein.es,calvinklein.ee,calvinklein.de,calvinklein.dk,calvinklein.cz,calvinklein.bg,calvinklein.be,calvinklein.co.uk##+js(set-cookie, PVH_COOKIES_GDPR_ANALYTICS, Reject)
+Error: Invalid selector: '+js(set-local-storage-item, hide-cookie-permission-1, true)' -- '+js(set-local-storage-item, hide-cookie-permission-1, true)' is not a valid selector in rule: hitado.de##+js(set-local-storage-item, hide-cookie-permission-1, true)
 Error: Invalid selector: '+js(set-local-storage-item, cookies-accept, true)' -- '+js(set-local-storage-item, cookies-accept, true)' is not a valid selector in rule: gostanford.com##+js(set-local-storage-item, cookies-accept, true)
+Error: Invalid selector: '+js(set-local-storage-item, pg-accept-cookies, true)' -- '+js(set-local-storage-item, pg-accept-cookies, true)' is not a valid selector in rule: bidup.amtrak.com##+js(set-local-storage-item, pg-accept-cookies, true)
 Error: Invalid selector: '+js(set-local-storage-item, analytics, false)' -- '+js(set-local-storage-item, analytics, false)' is not a valid selector in rule: revanced.app##+js(set-local-storage-item, analytics, false)
+Error: Invalid selector: '+js(set-local-storage-item, FP_cookiesAccepted, true)' -- '+js(set-local-storage-item, FP_cookiesAccepted, true)' is not a valid selector in rule: flyingpapers.com##+js(set-local-storage-item, FP_cookiesAccepted, true)
 Error: Invalid selector: '+js(set-local-storage-item, VISITED_0, true)' -- '+js(set-local-storage-item, VISITED_0, true)' is not a valid selector in rule: beta.character.ai##+js(set-local-storage-item, VISITED_0, true)
 Error: Invalid selector: '+js(set-local-storage-item, OPTIONAL_COOKIES_ACCEPTED_0, true)' -- '+js(set-local-storage-item, OPTIONAL_COOKIES_ACCEPTED_0, true)' is not a valid selector in rule: beta.character.ai##+js(set-local-storage-item, OPTIONAL_COOKIES_ACCEPTED_0, true)
+Error: Invalid selector: '+js(set-session-storage-item, ACCEPT_LGPD, true)' -- '+js(set-session-storage-item, ACCEPT_LGPD, true)' is not a valid selector in rule: c6bank.com.br##+js(set-session-storage-item, ACCEPT_LGPD, true)
 Error: Invalid selector: '+js(set-session-storage-item, acceptCookies, false)' -- '+js(set-session-storage-item, acceptCookies, false)' is not a valid selector in rule: gedik.com##+js(set-session-storage-item, acceptCookies, false)
 Error: Invalid selector: '+js(set-cookie, notice_preferences, 1)' -- '+js(set-cookie, notice_preferences, 1)' is not a valid selector in rule: formula1.com##+js(set-cookie, notice_preferences, 1)
 Error: Invalid selector: '+js(set-cookie, gdpr_opt_in, 1)' -- '+js(set-cookie, gdpr_opt_in, 1)' is not a valid selector in rule: howstuffworks.com##+js(set-cookie, gdpr_opt_in, 1)
@@ -694,7 +768,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 243
 Filter name: Frellwit's Swedish Filter
-Compiled rules: 3113
+Compiled rules: 3114
 Excluded rules: 440
 URL: https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt
 INVALID RULES:
@@ -745,7 +819,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 247
 Filter name: Polish Anti-Annoying Special Supplement
-Compiled rules: 660
+Compiled rules: 661
 Excluded rules: 38
 URL: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAntiAnnoyingSpecialSupplement/master/polish_rss_filters.txt
 INVALID RULES:
@@ -760,8 +834,8 @@ All rules are valid.
 ---------------------------
 Filter ID: 250
 Filter name: Dandelion Sprout's Annoyances List
-Compiled rules: 26901
-Excluded rules: 36002
+Compiled rules: 26903
+Excluded rules: 36004
 URL: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AnnoyancesList
 INVALID RULES:
 Error: "Unknown modifier: ~inline-font" in the rule: "||oldgames.4all.cc^$all,~inline-font"
@@ -17581,8 +17655,8 @@ Error: "Unknown pseudo-class ':-moz-only-whitespace' in selector: 'p:-moz-only-w
 ---------------------------
 Filter ID: 251
 Filter name: Legitimate URL Shortener
-Compiled rules: 3454
-Excluded rules: 356
+Compiled rules: 3456
+Excluded rules: 358
 URL: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
 All rules are valid.
 ---------------------------
@@ -17618,7 +17692,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 11
 Filter name: AdGuard Mobile Ads filter
-Compiled rules: 7360
+Compiled rules: 7363
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/11.txt
 All rules are valid.
@@ -17630,28 +17704,28 @@ URL: https://filters.adtidy.org/extension/chromium/filters/12.txt
 ---------------------------
 Filter ID: 13
 Filter name: AdGuard Turkish filter
-Compiled rules: 7211
+Compiled rules: 7213
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/13.txt
 All rules are valid.
 ---------------------------
 Filter ID: 14
 Filter name: AdGuard Annoyances filter
-Compiled rules: 48565
+Compiled rules: 48623
 Excluded rules: 2
 URL: https://filters.adtidy.org/extension/chromium/filters/14.txt
 All rules are valid.
 ---------------------------
 Filter ID: 15
 Filter name: AdGuard DNS filter
-Compiled rules: 55348
+Compiled rules: 55370
 Excluded rules: 296
 URL: https://filters.adtidy.org/extension/chromium/filters/15.txt
 All rules are valid.
 ---------------------------
 Filter ID: 16
 Filter name: AdGuard French filter
-Compiled rules: 24493
+Compiled rules: 24496
 Excluded rules: 68
 URL: https://filters.adtidy.org/extension/chromium/filters/16.txt
 INVALID RULES:
@@ -17661,21 +17735,21 @@ Error: Invalid selector: '#.ban-bottom-desktop' -- Error: unable to select by '#
 ---------------------------
 Filter ID: 17
 Filter name: AdGuard URL Tracking filter
-Compiled rules: 1710
+Compiled rules: 1711
 Excluded rules: 0
 URL: https://filters.adtidy.org/windows/filters/17.txt
 All rules are valid.
 ---------------------------
 Filter ID: 18
 Filter name: AdGuard Cookie Notices filter
-Compiled rules: 17778
+Compiled rules: 17806
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/18.txt
 All rules are valid.
 ---------------------------
 Filter ID: 19
 Filter name: AdGuard Popups filter
-Compiled rules: 16802
+Compiled rules: 16823
 Excluded rules: 2
 URL: https://filters.adtidy.org/extension/chromium/filters/19.txt
 All rules are valid.
@@ -17689,21 +17763,21 @@ All rules are valid.
 ---------------------------
 Filter ID: 20
 Filter name: AdGuard Mobile App Banners filter
-Compiled rules: 3267
+Compiled rules: 3269
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/20.txt
 All rules are valid.
 ---------------------------
 Filter ID: 21
 Filter name: AdGuard Other Annoyances filter
-Compiled rules: 8932
+Compiled rules: 8938
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/21.txt
 All rules are valid.
 ---------------------------
 Filter ID: 224
 Filter name: AdGuard Chinese filter
-Compiled rules: 23061
+Compiled rules: 23105
 Excluded rules: 52
 URL: https://filters.adtidy.org/extension/chromium/filters/224.txt
 INVALID RULES:
@@ -17712,7 +17786,7 @@ Error: "Empty domain specified in "|00ksw.com|0794.org|114zww.com|123du.vip|123w
 ---------------------------
 Filter ID: 22
 Filter name: AdGuard Widgets filter
-Compiled rules: 2069
+Compiled rules: 2070
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/22.txt
 All rules are valid.
@@ -17726,7 +17800,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 2
 Filter name: AdGuard Base filter
-Compiled rules: 129928
+Compiled rules: 129821
 Excluded rules: 64
 URL: https://filters.adtidy.org/extension/chromium/filters/2.txt
 INVALID RULES:
@@ -17735,14 +17809,14 @@ Error: "Unknown modifier: webrtc" in the rule: "$webrtc,domain=ack.net|allthetes
 ---------------------------
 Filter ID: 3
 Filter name: AdGuard Tracking Protection filter
-Compiled rules: 65966
+Compiled rules: 65976
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/3.txt
 All rules are valid.
 ---------------------------
 Filter ID: 4
 Filter name: AdGuard Social Media filter
-Compiled rules: 14205
+Compiled rules: 14215
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/4.txt
 All rules are valid.
@@ -17756,14 +17830,14 @@ All rules are valid.
 ---------------------------
 Filter ID: 6
 Filter name: AdGuard German filter
-Compiled rules: 11856
+Compiled rules: 11861
 Excluded rules: 12
 URL: https://filters.adtidy.org/extension/chromium/filters/6.txt
 All rules are valid.
 ---------------------------
 Filter ID: 7
 Filter name: AdGuard Japanese filter
-Compiled rules: 9814
+Compiled rules: 9842
 Excluded rules: 8
 URL: https://filters.adtidy.org/extension/chromium/filters/7.txt
 All rules are valid.
@@ -17777,7 +17851,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 9
 Filter name: AdGuard Spanish/Portuguese filter
-Compiled rules: 5926
+Compiled rules: 5933
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/9.txt
 All rules are valid.
