@@ -1,219 +1,62 @@
-# AG Filters Registry
+<h1>Welcome to the AG Filters Registry</h1>
 
-This repository contains the known filters subscriptions available to AdGuard users. We re-host these filters on `filters.adtidy.org`. Also, these filters can be slightly modified in order to achieve better compatibility with AdGuard.
-## What filters can be added to this repository
+<p>Discover the realm of AdGuard Filters Registry, your go-to source for curated filter subscriptions tailored for AdGuard users. At <code>filters.adtidy.org</code>, we host these invaluable filters, occasionally fine-tuned to enhance compatibility with AdGuard. Read on to dive into our filtering universe.</p>
 
-We may add third-party filters to AdGuard Filters Registry. When making a decision about adding a third-party filter, we follow these rules:
+<h2>Unlocking the Gate: Filter Additions</h2>
 
-1. The filter should be oriented towards browser content blockers.
-2. The filter should be legal. If it has rules for paywall circumvention, we won't add such a filter.
-3. The filter should have a place for receiving user complaints and holding discussions, such as a repository on github.com, or a website open to public.
-4. The filter should be relatively popular, meaning:
-    * if there is a repository on GitHub, the number of stars should be at least 50
-    * if there is no repository on GitHub, the number of analyzed issues and discussions is estimated at 10 per month on the filter's website
-    * the filter should be actively supported for at least 6 months
-5. The filter should be regularly updated with at least 10 updates per month.
-6. The filter should be compatible with AdGuard products. You can familiarize yourself with AdGuard syntax here: https://adguard.com/kb/general/ad-filtering/create-own-filters/.
-7. If the filter works only in some operating systems and satisfies all other criteria, it will be added but only for the supported platforms.
-8. Previously added filters that haven't received any support for a year will be removed. We reserve the right to remove the filter earlier, depending on circumstances.
-9. If the filter contains too many problematic rules, it will not be added. A rule is considered problematic if it causes false positives or otherwise displays unintended behavior. Decisions about filters with problematic rules are arbitrary and there may be exceptions (see items 9 and 10, for example).
-    * If the filter intentionally blocks or restricts access to any services for no reason other than being a reflection of the filter author's opinion, the filter will not get added, or will get removed if already added.
-10. If the filter is popular in a specific region and there are no alternatives to it, then it can be added as is.
-11. If the filter gets added, it receives a so-called [trustLevel](#trustLevel) (Low, High, Full), based on the number of problematic rules it contains and some other factors. Filters without "Full" trust level may have part of their rules disabled.
-    * The trust level of a filter can be re-reviewed and raised if the author improves the filter over time.
-12. If there are two or more similar filters that satisfy all other criteria, they all may be added if they don't duplicate each other and don't conflict with each other. If there is a large amount of conflicting or duplicate rules, the filter with more matches on such rules gets the priority.
-## Filters metadata
+<p>Embracing third-party filters into the AdGuard Filters Registry follows a meticulous process that reflects our dedication to quality and user satisfaction. These are the guiding principles for admitting a third-party filter:</p>
 
-- `template.txt`
+<ol>
+  <li><strong>Alignment with Browser Content Blockers:</strong> Filters should be designed for browser content blocking purposes.</li>
+  <li><strong>Upholding Legality:</strong> Filters must abide by legal norms. Filters that engage in paywall circumvention are excluded.</li>
+  <li><strong>Open Discussions:</strong> Filters should have channels for user feedback and discourse, such as GitHub repositories or public websites.</li>
+  <li><strong>Popularity Matters:</strong> The popularity bar is set high:
+    <ul>
+      <li>If hosted on GitHub, a minimum of 50 stars is expected.</li>
+      <li>For non-GitHub filters, an estimated 10 monthly interactions (issues and discussions) is a benchmark.</li>
+      <li>Filters need to be actively maintained for at least 6 months.</li>
+    </ul>
+  </li>
+  <li><strong>Regular Updates:</strong> Filters must receive at least 10 monthly updates to ensure current relevance.</li>
+  <li><strong>Compatibility with AdGuard Products:</strong> Filters must align with AdGuard syntax, as outlined <a href="https://adguard.com/kb/general/ad-filtering/create-own-filters/">here</a>.</li>
+  <li><strong>Selective Platform Inclusion:</strong> Filters working exclusively on certain platforms will be considered only for those supported platforms.</li>
+  <li><strong>Timely Maintenance:</strong> Filters not updated or supported for a year will be considered for removal, with possible exceptions.</li>
+  <li><strong>Problematic Rule Scrutiny:</strong> Filters must avoid problematic rules that lead to false positives or undesirable behavior. Rules blocking access solely based on personal opinion won't be entertained.</li>
+  <li><strong>Local Popularity:</strong> Filters catering to specific regions without alternatives may be included as-is.</li>
+  <li><strong>Trust Levels:</strong> Filters are assigned trust levels (Low, High, Full) based on rule quality. Filters below "Full" trust may have specific rules disabled, with the potential for review and upgrade.</li>
+  <li><strong>Duplicates and Conflicts:</strong> Similar filters can coexist if they offer value and don't replicate or conflict excessively.</li>
+</ol>
 
-    [Template file](#templates) is used by the filters compiler to prepare the final filter version.
+<h2>Unveiling Filter Metadata</h2>
 
-- `exclude.txt`
+<ul>
+  <li><code>template.txt</code>: A blueprint for the final filter version, essential for filter compilation.</li>
+  <li><code>exclude.txt</code>: Houses a set of regular expressions. Rules matching these are excluded from the final filter.</li>
+  <li><code>metadata.json</code>: Filter metadata encompasses details like name, description, and more.</li>
+  <li><code>revision.json</code>: Records filter version metadata, updated with each build.</li>
+  <li><code>filter.txt</code>: The optimized compiled filter, stripped of unused rules.</li>
+  <li><code>diff.txt</code>: A build log containing excluded and converted rules.</li>
+</ul>
 
-    A list of regular expressions. Rules that match these exclusions will not be included in the resulting filter.
+<h2>Lend Your Voice: Filter Localization</h2>
 
-- `metadata.json`
+<p>Enrich our filtering landscape by contributing to filter translations on Crowdin. Join us on <a href="https://crowdin.com/project/adguard-applications/en#/miscellaneous/filters-registry">Crowdin</a> to help bring AdGuard's filters to diverse languages.</p>
 
-    Filter metadata. Includes name, description, etc.
+<h2>Crafting Custom Filters</h2>
 
-    * `filterId` — unique filter identifier (integer)
-    * `name` — filter name; can be localized
-    * `description` — filter description
-    * `timeAdded` — time when this filter was added to the registry; milliseconds since January 1, 1970; you can exec `new Date().getTime()` in the browser console to get the current time
-    * `homepage` — filter website/homepage
-    * `expires` — filter's default expiration period; used as filter update interval if "Default" is chosen for according setting in AdGuard product
-    * `displayNumber` — this number is used when AdGuard sorts available filters (GUI)
-    * `groupId` — [group](#groups) identifier
-    * `subscriptionUrl` — default filter subscription URL
-    * `tags` — a list of [tags](#tags)
-    * <a id="trustLevel"></a> `trustLevel` — level of trust which describe [allowed and permitted rules types](https://github.com/AdguardTeam/FiltersCompiler/tree/master/src/main/utils/trust-levels); possible values:
-        * `low` — only low-risk rule types are allowed; defaults to **low** if trust level is not configured at all
-        * `high` — trusted third-party filter lists; some particular rules from there are still permitted
-        * `full` — all types of filter rules are allowed; only AdGuard filter lists have full trust at the moment
-    * `platformsIncluded` — [the list of platforms](https://adguard.com/kb/general/ad-filtering/create-own-filters/#platform-and-not_platform-hints) to compile the filter for, e.g. `["mac", "windows", "android"]`. If you need to compile the filter for all platforms remove this property
-    * `platformsExcluded` — [the list of platforms](https://adguard.com/kb/general/ad-filtering/create-own-filters/#platform-and-not_platform-hints) to skip while filter compiling, e.g. `["ios", "ext_safari"]`. If you need to compile the filter for all platforms remove this property
+<p>Harness the power of <code>@include</code> directives to seamlessly integrate external content into filters. Customize filter builds using <code>/notOptimized</code> to retain rules during optimization.</p>
 
-    > Note please that both `platformsIncluded` and `platformsExcluded` should not be set in filter's metadata simultaneously.
+<h2>The Building Symphony</h2>
 
-    <details>
-      <summary>Metadata example</summary>
+<p>To embark on our journey:</p>
 
-    ```json
-    {
-      "filterId": 2,
-      "name": "AdGuard Base filter",
-      "description": "EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.",
-      "timeAdded": 1404115015843,
-      "homepage": "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
-      "expires": "4 days",
-      "displayNumber": 1,
-      "groupId": 1,
-      "subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/2.txt",
-      "tags": [
-        "purpose:ads",
-        "reference:101",
-        "recommended",
-        "reference:2"
-      ],
-      "trustLevel": "full",
-      "platformsIncluded": [
-        "windows",
-        "mac",
-        "android",
-        "ext_ublock"
-      ]
-    }
-    ```
-    </details>
+<ol>
+  <li>Install the required dependencies with <code>yarn install</code>.</li>
+  <li>Execute <code>node index.js</code>.</li>
+</ol>
 
-- `revision.json`
+<p>For advanced users, customize builds with white/black lists using the <code>-i</code> and <code>-s</code> parameters.</p>
 
-  Filter version metadata, automatically filled and overwritten on each build.
+<h2>Embrace the Filtering Odyssey</h2>
 
-- `filter.txt`
-
-  Resulting compiled filter.
-
-- `diff.txt`
-
-  Build log that contains excluded and converted rules with an explanation.
-
-### <a id="tags"></a> Tags
-
-Every filter can be marked by a number of tags. Every tag metadata listed in `/tags/metadata.json`.
-
-<details>
-  <summary>Example</summary>
-
-```json
-{
-    "tagId": 1,
-    "keyword": "purpose:ads"
-  },
-```
-</details>
-
-Possible tags:
-* `lang:*` — for language-specific filters; one or multiple lang-tags can be used. For instance, AdGuard Russian filter is marked with the `lang:ru` tag.
-
-* `purpose:*` — determines filters purposes; multiple purpose-tags can be used for one filter list. For instance, `AdGuard DNS` is marked with both `purpose:ads` and `purpose:privacy`.
-
-* `recommended` — for low-risk filter lists which are recommended to use in their category. The category is determined by the pair of the `lang:*` and `purpose:*` tags.
-
-* `obsolete` — for abandoned filter lists; filter's metadata with this tag will be excluded from `filters.json` and `filters_i18n.json`.
-### <a id="groups"></a> Groups
-
-`/groups/metadata.json` — filters groups metadata. Each filter should belong to one of the groups.
-
-## Filters optimization
-
-For each filter, AdGuard compiles two versions: full and optimized. Optimized version is much more lightweight and does not contain rules which are not used at all or used rarely. Rules usage frequency comes from the collected [filter rules statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics/) (thanks to the volunteers who enabled it in their AdGuard).
-
-* `optimization_config.json` - defines the target for the optimization process. AdGuard will try to compress the lists by removing the most rarely used rules until the compression goal (defined in percents) is met.
-
-## Filters compiler customization
-
-`custom_platforms.js` customizes the way filters are compiled for certain platforms. We should use it if we need to
-temporary change rules for a platform. In all other cases, we should prefer the default configuration.
-Below is a example of the configuration for the platform `AdGuard for Chrome` with comments:
-```javascript
-    "EXTENSION_CHROMIUM": {
-        // Defines the platform for which the settings are specified.
-        "platform": "ext_chromium",
-        // Defines the path that can be used to access the settings or resources associated with this platform.
-        "path": "extension/chromium",
-        "configuration": {
-            // Sets an array of regular expressions that will be used to remove certain rules.
-            "removeRulePatterns": [
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
-                "\\$(.*,)?replace=",
-                "important,replace=",
-                "\\$(.*,)?app",
-                "\\$network",
-                "\\$protobuf",
-                "important,protobuf",
-                "\\$extension",
-                ",extension"
-            ],
-            // Sets an array of objects that will be used to replace certain values.
-            "replacements": [ 
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ],
-            // Specifies whether to ignore hints for rules. A value of "false" means that hints will not be ignored.
-            "ignoreRuleHints": false
-        },
-        "defines": {
-            "adguard": true,
-            "adguard_ext_chromium": true
-        }
-    },
-```
-
-## Filters localization
-
-If you want to help with filters translations, you can join us on Crowdin: https://crowdin.com/project/adguard-applications/en#/miscellaneous/filters-registry
-
-Please learn more about translating our products: https://adguard.com/kb/miscellaneous/contribute/translate/program/
-
-## <a id="templates"></a> Filters templates
-`@include` directive allows to include the content of specified file into the filter.
-
-If you want to add a filter and keep all its rules during optimization, use the `/notOptimized` parameter.
-
-Example:
-```
-@include "https://example.org/test-filter.txt" /notOptimized
-```
-
-## How to build
-
-```
-yarn install
-```
-
-Run the following command:
-```
-node index.js
-```
-
-Build with white/black lists:
-```
-node index.js -i=1,2,3 -s=4,5,6
-```
-
-Validate `filters.json` and `filters_i18n.json` for platforms:
-```
-node validate ./platforms
-```
-
-> For AdGuard filters **all locales** are required, it means 100% translated.
-
-Validate locales:
-```
-yarn locales:validate
-```
-
-> For third-party filters only `REQUIRED_LOCALES` should be 100% done.
+<p>The AG Filters Registry is your gateway to a refined filtering experience. Embrace our meticulously curated filters, tailored to perfection. Let's enhance your browsing journey together.</p>
