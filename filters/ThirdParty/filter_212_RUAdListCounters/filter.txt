@@ -1,8 +1,8 @@
 !
-! Checksum: 1SudZb7qJX3raWfIn9xanA
-! OriginalVersion: 202308172030
+! Checksum: A6rBv6pKXYDVHyRDlZlX2g
+! OriginalVersion: 202308290830
 ! Title: RU AdList: Counters
-! Last modified: 17 Aug 2023 20:30 UTC
+! Last modified: 29 Aug 2023 08:30 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -106,7 +106,6 @@
 /cycounter^
 /dcs.gif?
 /detect-ip.php?$script,~third-party
-/dprSdkScript.js|$script
 /elqnow/*
 /EmbedAsyncLogger.
 /foresee/*
@@ -226,7 +225,7 @@ _pagespeed_beacon?
 ://tns-counter.ru/$domain=~tns-counter.ru
 |http://li.ru^$third-party,~subdocument
 |http://pr-cy.$third-party
-||1.1.1.1/cdn-cgi/trace$third-party
+||1.1.1.1/cdn-cgi/trace$third-party,domain=~gidonline.io
 ||1l-hit.mail.ru^
 ||1pagerank.com^$third-party
 ||24smi.org/api/metrics/
@@ -334,6 +333,7 @@ _pagespeed_beacon?
 ||botradar.tech^$third-party
 ||brightcove.com/1pix.gif?
 ||browsiprod.com^$third-party
+||bugsnag.com/|$third-party
 ||business-key.com/top/
 ||business.if.ua/common/scripts/getstat.asp?
 ||c.bigmir.net^
@@ -512,7 +512,7 @@ _pagespeed_beacon?
 ||google.*/ads/ga-audiences?v=
 ||googleadservices.com^$third-party
 ||googleoptimize.com^$third-party
-||googletagmanager.com/gtag/$third-party,domain=~zakon.kz
+||googletagmanager.com/gtag/$third-party,domain=~starblast.io|~zakon.kz
 ||gostats.$third-party
 ||goto.kz/img.php?
 ||groot.ivi.ru/track|$xmlhttprequest
@@ -639,6 +639,7 @@ _pagespeed_beacon?
 ||medialand.ru/null.swf
 ||mediarepost.ru^$third-party,domain=~yurasumy.livejournal.com
 ||mediator.mail.ru^$domain=~mediator.mail.ru
+||meduza.io/stat/
 ||megaindex.ru/?$third-party
 ||metrics.aviasales.ru^
 ||metrika-informer.com^$third-party
@@ -1185,6 +1186,7 @@ dzen.*##div[aria-label*="екламн"]
 dzen.*##div[class*="-placeholder__root"]
 dzen.*##div[class*="-sidebar__ad"]
 dzen.*##div[class*="_pos_index-"]
+dzen.*##div[class*="linkBro-"]
 dzen.*#?#div[class*="__col"]:-abp-has(> div[class*="-feed__"][class*="_type_"] > div[class*="loader"])
 dzen.*,yandex.*##.b-statcounter + div[class] > div[id][class]
 dzen.*,yandex.*##.mg-grid__col div[class*="_type_native"]
@@ -1192,6 +1194,7 @@ mail.yandex.by,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz,mail.yandex.*##.mail
 mail.yandex.by,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz,mail.yandex.*##.mail-Layout-Content > div:first-child + div div[style="height: 36px !important;"]
 newssearch.yandex.*##.news-advert__column
 tv.yandex.*##.recommended-ott
+ya.*,yandex.*##.RsyaOrganic
 ya.*,yandex.*#?#.serp-list > .serp-item:-abp-has(> .bno .serp-adv__counter)
 ya.*,yandex.*#?#.serp-list > .serp-item:-abp-has(> div > div > [data-event-required])
 yandex.*###bk-container
@@ -1396,13 +1399,13 @@ $removeparam=yredirect
 $removeparam=ysclid
 .html?spm=$document,removeparam=spm,domain=aliexpress.*
 .ru/?spm=$document,removeparam=spm,domain=aliexpress.*
-/*from=$document,removeparam=from,domain=116.ru|14.ru|161.ru|164.ru|178.ru|26.ru|29.ru|35.ru|43.ru|45.ru|48.ru|51.ru|53.ru|56.ru|59.ru|60.ru|62.ru|63.ru|68.ru|71.ru|72.ru|74.ru|76.ru|86.ru|89.ru|93.ru|chita.ru|e1.ru|ircity.ru|mgorsk.ru|msk1.ru|ngs.ru|ngs22.ru|ngs24.ru|ngs42.ru|ngs55.ru|ngs70.ru|nn.ru|proizhevsk.ru|provoronezh.ru|sochi1.ru|sterlitamak1.ru|tolyatty.ru|ufa1.ru|v1.ru
+/*from=$document,removeparam=from,domain=116.ru|14.ru|161.ru|164.ru|178.ru|26.ru|29.ru|35.ru|43.ru|45.ru|48.ru|51.ru|53.ru|56.ru|59.ru|60.ru|62.ru|63.ru|68.ru|71.ru|72.ru|74.ru|76.ru|86.ru|89.ru|93.ru|chita.ru|e1.ru|ircity.ru|mgorsk.ru|msk1.ru|ngs.ru|ngs22.ru|ngs24.ru|ngs42.ru|ngs55.ru|ngs70.ru|nn.ru|proizhevsk.ru|provoronezh.ru|sochi1.ru|sterlitamak1.ru|tolyatty.ru|ufa1.ru|v1.ru|vladivostok1.ru
 /?cr=$removeparam=cr,domain=mail.ru|sportmail.ru
 /?from=$removeparam=from,domain=mail.ru|sportmail.ru|vkplay.ru
 /?from=RCM-$document,xmlhttprequest,removeparam,domain=rambler.ru
 /?from=smm|$removeparam=from
 /?from_block=$document,removeparam=from_block,domain=www.kinopoisk.ru
-/?gm&$document,removeparam=gm,domain=116.ru|14.ru|161.ru|164.ru|178.ru|26.ru|29.ru|35.ru|43.ru|45.ru|48.ru|51.ru|53.ru|56.ru|59.ru|60.ru|62.ru|63.ru|68.ru|71.ru|72.ru|74.ru|76.ru|86.ru|89.ru|93.ru|chita.ru|e1.ru|ircity.ru|mgorsk.ru|msk1.ru|ngs.ru|ngs22.ru|ngs24.ru|ngs42.ru|ngs55.ru|ngs70.ru|nn.ru|proizhevsk.ru|provoronezh.ru|sochi1.ru|sterlitamak1.ru|tolyatty.ru|ufa1.ru|v1.ru
+/?gm&$document,removeparam=gm,domain=116.ru|14.ru|161.ru|164.ru|178.ru|26.ru|29.ru|35.ru|43.ru|45.ru|48.ru|51.ru|53.ru|56.ru|59.ru|60.ru|62.ru|63.ru|68.ru|71.ru|72.ru|74.ru|76.ru|86.ru|89.ru|93.ru|chita.ru|e1.ru|ircity.ru|mgorsk.ru|msk1.ru|ngs.ru|ngs22.ru|ngs24.ru|ngs42.ru|ngs55.ru|ngs70.ru|nn.ru|proizhevsk.ru|provoronezh.ru|sochi1.ru|sterlitamak1.ru|tolyatty.ru|ufa1.ru|v1.ru|vladivostok1.ru
 /?ref=tg$document,removeparam=ref
 ?media&ila_camaign=$document,removeparam=media
 ?prov=ukrnet$removeparam=prov

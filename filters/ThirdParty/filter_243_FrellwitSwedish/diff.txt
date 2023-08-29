@@ -14,6 +14,14 @@ affarsstaden.se##+js(acs, jQuery, adblockdetect)
 aftonbladet.se##:matches-path(/^/$/) p:has-text(Artikeln innehåller annonslänkar):upward(a)
 ! Rule "aftonbladet.se,allas.se,baaam.se,bulletin.nu,cgi.com,dagensarena.se,elle.se,femina.se,fof.se,folkofolk.se,frida.se,hant.se,inredningsarkitektur.se,kollega.se,lchfarkivet.se,mabra.com,motherhood.se,residencemagazine.se,skyscanner.se,svenskdam.se,xlbygg.se##body:style(overflow:initial!important)" converted to: "aftonbladet.se,allas.se,baaam.se,bulletin.nu,cgi.com,dagensarena.se,elle.se,femina.se,fof.se,folkofolk.se,frida.se,hant.se,inredningsarkitektur.se,kollega.se,lchfarkivet.se,mabra.com,motherhood.se,residencemagazine.se,skyscanner.se,svenskdam.se,xlbygg.se#$#body { overflow:initial!important }"
 aftonbladet.se,allas.se,baaam.se,bulletin.nu,cgi.com,dagensarena.se,elle.se,femina.se,fof.se,folkofolk.se,frida.se,hant.se,inredningsarkitektur.se,kollega.se,lchfarkivet.se,mabra.com,motherhood.se,residencemagazine.se,skyscanner.se,svenskdam.se,xlbygg.se##body:style(overflow:initial!important)
+! Rule "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:advertising, 0)" converted to: "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se#%#//scriptlet('ubo-set-local-storage-item.js', 'CMP:advertising', '0')"
+aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:advertising, 0)
+! Rule "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:analytics, 0)" converted to: "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se#%#//scriptlet('ubo-set-local-storage-item.js', 'CMP:analytics', '0')"
+aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:analytics, 0)
+! Rule "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:marketing, 0)" converted to: "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se#%#//scriptlet('ubo-set-local-storage-item.js', 'CMP:marketing', '0')"
+aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:marketing, 0)
+! Rule "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:personalisation, 0)" converted to: "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se#%#//scriptlet('ubo-set-local-storage-item.js', 'CMP:personalisation', '0')"
+aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:personalisation, 0)
 ! Rule "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##.sp-message-open body:style(overflow:initial!important; position:unset!important; margin-top:unset!important;)" converted to: "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se#$#.sp-message-open body { overflow:initial!important; position:unset!important; margin-top:unset!important; }"
 aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##.sp-message-open body:style(overflow:initial!important; position:unset!important; margin-top:unset!important;)
 ! Rule "airam.fi##.body-fixed:style(position: unset !important;)" converted to: "airam.fi#$#.body-fixed { position: unset !important; }"
@@ -26,8 +34,8 @@ aktivtraning.se,digitalfotoforalla.se,iform.se,illvet.se,pctidningen.se,popularh
 aktivtraning.se,digitalfotoforalla.se,iform.se,pctidningen.se,popularhistoria.se##li:has(.content-label:has-text(/annons/i)):remove()
 ! Rule "aktuellsakerhet.se##.block-title:has-text(Reklamsamarbete):upward(.td_block_wrap) + rs-module-wrap:remove()" converted to: "aktuellsakerhet.se#$?#.block-title:has-text(Reklamsamarbete):upward(.td_block_wrap) + rs-module-wrap { remove: true; }"
 aktuellsakerhet.se##.block-title:has-text(Reklamsamarbete):upward(.td_block_wrap) + rs-module-wrap:remove()
-! Rule "alekuriren.se,allas.se,alltforforaldrar.se,baaam.se,babyhjalp.se,barometern.se,blt.se,bt.se,byrum.se,cafe.se,corren.se,di.se,ekuriren.se,elle.se,eposten.se,expressen.se,familjeliv.se,femina.se,folkbladet.nu,folkbladet.se,fragbite.se,frida.se,golfing.se,gotlandjustnu.se,hant.se,helagotland.se,ibnytt.se,kalmarposten.se,kindaposten.se,kingmagazine.se,kkuriren.se,klt.nu,kristianstadsbladet.se,kuriren.nu,lchfarkivet.se,lokalti.se,lokaltidningen.nu,mabra.com,mellanbygden.nu,meraosterlen.se,mestmotor.se,mitti.se,motherhood.se,mvt.se,nordsverige.se,norrahalland.se,norran.se,nsd.se,nsk.se,nt.se,nyheter24.se,olandsbladet.se,praktisktbatagande.se,pt.se,realtid.se,recept.se,residencemagazine.se,skd.se,smp.se,sn.se,strengnastidning.se,svenskdam.se,svenskgolf.se,sverigespringer.se,sydostran.se,thelocal.se,trelleborgsallehanda.se,unt.se,ut.se,vasterastidning.se,vasterbottningen.se,vaxjobladet.se,viivilla.se,vimmerbytidning.se,vk.se,vt.se,vxonews.se,youplay.se,ystadsallehanda.se##+js(json-prune, autoplay)" converted to: "alekuriren.se,allas.se,alltforforaldrar.se,baaam.se,babyhjalp.se,barometern.se,blt.se,bt.se,byrum.se,cafe.se,corren.se,di.se,ekuriren.se,elle.se,eposten.se,expressen.se,familjeliv.se,femina.se,folkbladet.nu,folkbladet.se,fragbite.se,frida.se,golfing.se,gotlandjustnu.se,hant.se,helagotland.se,ibnytt.se,kalmarposten.se,kindaposten.se,kingmagazine.se,kkuriren.se,klt.nu,kristianstadsbladet.se,kuriren.nu,lchfarkivet.se,lokalti.se,lokaltidningen.nu,mabra.com,mellanbygden.nu,meraosterlen.se,mestmotor.se,mitti.se,motherhood.se,mvt.se,nordsverige.se,norrahalland.se,norran.se,nsd.se,nsk.se,nt.se,nyheter24.se,olandsbladet.se,praktisktbatagande.se,pt.se,realtid.se,recept.se,residencemagazine.se,skd.se,smp.se,sn.se,strengnastidning.se,svenskdam.se,svenskgolf.se,sverigespringer.se,sydostran.se,thelocal.se,trelleborgsallehanda.se,unt.se,ut.se,vasterastidning.se,vasterbottningen.se,vaxjobladet.se,viivilla.se,vimmerbytidning.se,vk.se,vt.se,vxonews.se,youplay.se,ystadsallehanda.se#%#//scriptlet('ubo-json-prune.js', 'autoplay')"
-alekuriren.se,allas.se,alltforforaldrar.se,baaam.se,babyhjalp.se,barometern.se,blt.se,bt.se,byrum.se,cafe.se,corren.se,di.se,ekuriren.se,elle.se,eposten.se,expressen.se,familjeliv.se,femina.se,folkbladet.nu,folkbladet.se,fragbite.se,frida.se,golfing.se,gotlandjustnu.se,hant.se,helagotland.se,ibnytt.se,kalmarposten.se,kindaposten.se,kingmagazine.se,kkuriren.se,klt.nu,kristianstadsbladet.se,kuriren.nu,lchfarkivet.se,lokalti.se,lokaltidningen.nu,mabra.com,mellanbygden.nu,meraosterlen.se,mestmotor.se,mitti.se,motherhood.se,mvt.se,nordsverige.se,norrahalland.se,norran.se,nsd.se,nsk.se,nt.se,nyheter24.se,olandsbladet.se,praktisktbatagande.se,pt.se,realtid.se,recept.se,residencemagazine.se,skd.se,smp.se,sn.se,strengnastidning.se,svenskdam.se,svenskgolf.se,sverigespringer.se,sydostran.se,thelocal.se,trelleborgsallehanda.se,unt.se,ut.se,vasterastidning.se,vasterbottningen.se,vaxjobladet.se,viivilla.se,vimmerbytidning.se,vk.se,vt.se,vxonews.se,youplay.se,ystadsallehanda.se##+js(json-prune, autoplay)
+! Rule "alekuriren.se,allas.se,alltforforaldrar.se,baaam.se,babyhjalp.se,barometern.se,blt.se,bt.se,byrum.se,cafe.se,corren.se,di.se,ekuriren.se,elle.se,eposten.se,expressen.se,familjeliv.se,femina.se,folkbladet.nu,folkbladet.se,fragbite.se,frida.se,golfing.se,gotlandjustnu.se,hant.se,helagotland.se,ibnytt.se,idrottensaffarer.se,kalmarposten.se,kindaposten.se,kingmagazine.se,kkuriren.se,klt.nu,kristianstadsbladet.se,kuriren.nu,lchfarkivet.se,lokalti.se,lokaltidningen.nu,mabra.com,mellanbygden.nu,meraosterlen.se,mestmotor.se,mitti.se,motherhood.se,mvt.se,nordsverige.se,norrahalland.se,norran.se,nsd.se,nsk.se,nt.se,nyheter24.se,olandsbladet.se,praktisktbatagande.se,pt.se,realtid.se,recept.se,residencemagazine.se,skd.se,smp.se,sn.se,strengnastidning.se,svenskdam.se,svenskgolf.se,sverigespringer.se,sydostran.se,thelocal.se,trelleborgsallehanda.se,unt.se,ut.se,vasterastidning.se,vasterbottningen.se,vaxjobladet.se,viivilla.se,vimmerbytidning.se,vk.se,vt.se,vxonews.se,youplay.se,ystadsallehanda.se##+js(json-prune, autoplay)" converted to: "alekuriren.se,allas.se,alltforforaldrar.se,baaam.se,babyhjalp.se,barometern.se,blt.se,bt.se,byrum.se,cafe.se,corren.se,di.se,ekuriren.se,elle.se,eposten.se,expressen.se,familjeliv.se,femina.se,folkbladet.nu,folkbladet.se,fragbite.se,frida.se,golfing.se,gotlandjustnu.se,hant.se,helagotland.se,ibnytt.se,idrottensaffarer.se,kalmarposten.se,kindaposten.se,kingmagazine.se,kkuriren.se,klt.nu,kristianstadsbladet.se,kuriren.nu,lchfarkivet.se,lokalti.se,lokaltidningen.nu,mabra.com,mellanbygden.nu,meraosterlen.se,mestmotor.se,mitti.se,motherhood.se,mvt.se,nordsverige.se,norrahalland.se,norran.se,nsd.se,nsk.se,nt.se,nyheter24.se,olandsbladet.se,praktisktbatagande.se,pt.se,realtid.se,recept.se,residencemagazine.se,skd.se,smp.se,sn.se,strengnastidning.se,svenskdam.se,svenskgolf.se,sverigespringer.se,sydostran.se,thelocal.se,trelleborgsallehanda.se,unt.se,ut.se,vasterastidning.se,vasterbottningen.se,vaxjobladet.se,viivilla.se,vimmerbytidning.se,vk.se,vt.se,vxonews.se,youplay.se,ystadsallehanda.se#%#//scriptlet('ubo-json-prune.js', 'autoplay')"
+alekuriren.se,allas.se,alltforforaldrar.se,baaam.se,babyhjalp.se,barometern.se,blt.se,bt.se,byrum.se,cafe.se,corren.se,di.se,ekuriren.se,elle.se,eposten.se,expressen.se,familjeliv.se,femina.se,folkbladet.nu,folkbladet.se,fragbite.se,frida.se,golfing.se,gotlandjustnu.se,hant.se,helagotland.se,ibnytt.se,idrottensaffarer.se,kalmarposten.se,kindaposten.se,kingmagazine.se,kkuriren.se,klt.nu,kristianstadsbladet.se,kuriren.nu,lchfarkivet.se,lokalti.se,lokaltidningen.nu,mabra.com,mellanbygden.nu,meraosterlen.se,mestmotor.se,mitti.se,motherhood.se,mvt.se,nordsverige.se,norrahalland.se,norran.se,nsd.se,nsk.se,nt.se,nyheter24.se,olandsbladet.se,praktisktbatagande.se,pt.se,realtid.se,recept.se,residencemagazine.se,skd.se,smp.se,sn.se,strengnastidning.se,svenskdam.se,svenskgolf.se,sverigespringer.se,sydostran.se,thelocal.se,trelleborgsallehanda.se,unt.se,ut.se,vasterastidning.se,vasterbottningen.se,vaxjobladet.se,viivilla.se,vimmerbytidning.se,vk.se,vt.se,vxonews.se,youplay.se,ystadsallehanda.se##+js(json-prune, autoplay)
 ! Rule "alingsastidning.se,bohuslaningen.se,gp.se,hallandsposten.se,harrydaposten.se,hn.se,kungalvsposten.se,kungsbackaposten.se,lwcdn.com,markposten.se,molndalsposten.se,partilletidning.se,stromstadstidning.se,sttidningen.se,ttela.se##+js(json-prune, autoplay players.*.ga acl.ads players.*.autoplay)" converted to: "alingsastidning.se,bohuslaningen.se,gp.se,hallandsposten.se,harrydaposten.se,hn.se,kungalvsposten.se,kungsbackaposten.se,lwcdn.com,markposten.se,molndalsposten.se,partilletidning.se,stromstadstidning.se,sttidningen.se,ttela.se#%#//scriptlet('ubo-json-prune.js', 'autoplay players.*.ga acl.ads players.*.autoplay')"
 alingsastidning.se,bohuslaningen.se,gp.se,hallandsposten.se,harrydaposten.se,hn.se,kungalvsposten.se,kungsbackaposten.se,lwcdn.com,markposten.se,molndalsposten.se,partilletidning.se,stromstadstidning.se,sttidningen.se,ttela.se##+js(json-prune, autoplay players.*.ga acl.ads players.*.autoplay)
 ! Rule "alkompis.se##.cdk-global-scrollblock:style(overflow-y: initial !important; position: unset !important;)" converted to: "alkompis.se#$#.cdk-global-scrollblock { overflow-y: initial !important; position: unset !important; }"
@@ -94,6 +102,8 @@ corren.se,ekuriren.se,eposten.se,folkbladet.se,gotlandjustnu.se,helagotland.se,k
 dagenshultsfred.se,dagenskalmar.nu,dagensvastervik.se,dagensvimmerby.se##body:style(margin-top: 0 !important;)
 ! Rule "dalarnasaffarer.se,jamtlandsaffarer.se,naringslivetvgl.se,stockholmsaffarer.se##.header-menu__wrapp:style(position:unset!important)" converted to: "dalarnasaffarer.se,jamtlandsaffarer.se,naringslivetvgl.se,stockholmsaffarer.se#$#.header-menu__wrapp { position:unset!important }"
 dalarnasaffarer.se,jamtlandsaffarer.se,naringslivetvgl.se,stockholmsaffarer.se##.header-menu__wrapp:style(position:unset!important)
+! Rule "destination.se,sistaminuten.se##+js(set-cookie, CM_cookieConsent, 0)" converted to: "destination.se,sistaminuten.se#%#//scriptlet('ubo-set-cookie.js', 'CM_cookieConsent', '0')"
+destination.se,sistaminuten.se##+js(set-cookie, CM_cookieConsent, 0)
 ! Rule "devote.se##+js(aeld, click)" converted to: "devote.se#%#//scriptlet('ubo-aeld.js', 'click')"
 devote.se##+js(aeld, click)
 ! Rule "di.se##+js(acs, Di, initAds)" converted to: "di.se#%#//scriptlet('ubo-acs.js', 'Di', 'initAds')"
@@ -196,6 +206,8 @@ husbilsplats.se,spelhubben.se##+js(acs, document.oncontextmenu)
 icscards.nl##body > [class^="page-"][style^="filter:"]:style(filter:none!important)
 ! Rule "idg.se##+js(nostif, gFail)" converted to: "idg.se#%#//scriptlet('ubo-nostif.js', 'gFail')"
 idg.se##+js(nostif, gFail)
+! Rule "idrottensaffarer.se###header:style(height:unset!important;)" converted to: "idrottensaffarer.se#$##header { height:unset!important; }"
+idrottensaffarer.se###header:style(height:unset!important;)
 ! Rule "improveme.se##.wp-pagenavi:style(position:unset!important;z-index:unset!important)" converted to: "improveme.se#$#.wp-pagenavi { position:unset!important;z-index:unset!important }"
 improveme.se##.wp-pagenavi:style(position:unset!important;z-index:unset!important)
 ! Rule "kamrat.com##+js(set, showAds, false)" converted to: "kamrat.com#%#//scriptlet('ubo-set.js', 'showAds', 'false')"
@@ -274,6 +286,8 @@ ng.se###nativendo-mainfeed:upward(1):remove()
 nongrata.se##html:style(overflow:unset!important)
 ! Rule "norpan.se,skrattsajten.com##+js(acs, $, e.preventDefault)" converted to: "norpan.se,skrattsajten.com#%#//scriptlet('ubo-acs.js', '$', 'e.preventDefault')"
 norpan.se,skrattsajten.com##+js(acs, $, e.preventDefault)
+! Rule "nyafilmer.*##+js(nosiif, _0x39426c)" converted to: "nyafilmer.*#%#//scriptlet('ubo-nosiif.js', '_0x39426c')"
+nyafilmer.*##+js(nosiif, _0x39426c)
 ! Rule "omni.se,omniekonomi.se##+js(aeld, omniPulseLoaded)" converted to: "omni.se,omniekonomi.se#%#//scriptlet('ubo-aeld.js', 'omniPulseLoaded')"
 omni.se,omniekonomi.se##+js(aeld, omniPulseLoaded)
 ! Rule "omni.se,omniekonomi.se##.header-banner--regular, .app-banner:style(--banner-offset: 0 !important;)" converted to: "omni.se,omniekonomi.se#$#.header-banner--regular, .app-banner { --banner-offset: 0 !important; }"
@@ -308,8 +322,8 @@ spelhubben.se##html, .unselectable:style(-moz-user-select:initial!important; -we
 sportbladetplay.se##body.dimmed:style(overflow:unset!important)
 ! Rule "spray.se##+js(set, googletag, 1)" converted to: "spray.se#%#//scriptlet('ubo-set.js', 'googletag', '1')"
 spray.se##+js(set, googletag, 1)
-! Rule "spray.se##+js(set, yieldwrapper.refreshPage, noopFunc)" converted to: "spray.se#%#//scriptlet('ubo-set.js', 'yieldwrapper.refreshPage', 'noopFunc')"
-spray.se##+js(set, yieldwrapper.refreshPage, noopFunc)
+! Rule "spray.se##+js(set, window.WURFL, 1)" converted to: "spray.se#%#//scriptlet('ubo-set.js', 'window.WURFL', '1')"
+spray.se##+js(set, window.WURFL, 1)
 ! Rule "spray.se##body:style(-webkit-user-select: text !important; user-select: text !important;)" converted to: "spray.se#$#body { -webkit-user-select: text !important; user-select: text !important; }"
 spray.se##body:style(-webkit-user-select: text !important; user-select: text !important;)
 ! Rule "startaochdriva.se##+js(noeval)" converted to: "startaochdriva.se#%#//scriptlet('ubo-noeval.js')"
@@ -342,8 +356,8 @@ thelocal.se##.single-article-related.single-article-related-short::after:style(b
 thelocal.se##.single-article-related.single-article-related-short:style(height:unset!important; overflow:unset!important;)
 ! Rule "tidningenridsport.se##.entry-content:style(display: initial !important;)" converted to: "tidningenridsport.se#$#.entry-content { display: initial !important; }"
 tidningenridsport.se##.entry-content:style(display: initial !important;)
-! Rule "totallyorebro.se,totallystockholm.se##[class*="tot-content-preview-container"]:has(a[href*="casino"]):remove()" converted to: "totallyorebro.se,totallystockholm.se#$?#[class*="tot-content-preview-container"]:has(a[href*="casino"]) { remove: true; }"
-totallyorebro.se,totallystockholm.se##[class*="tot-content-preview-container"]:has(a[href*="casino"]):remove()
+! Rule "totallyorebro.se,totallystockholm.se##[class*="tot-content-preview-container"]:has(a[href*="casino"], a[href*="kasino"], a[href*="betting"]):remove()" converted to: "totallyorebro.se,totallystockholm.se#$?#[class*="tot-content-preview-container"]:has(a[href*="casino"], a[href*="kasino"], a[href*="betting"]) { remove: true; }"
+totallyorebro.se,totallystockholm.se##[class*="tot-content-preview-container"]:has(a[href*="casino"], a[href*="kasino"], a[href*="betting"]):remove()
 ! Rule "tv4play.se##.avod-web-player-pause:style(background-color:transparent!important;)" converted to: "tv4play.se#$#.avod-web-player-pause { background-color:transparent!important; }"
 tv4play.se##.avod-web-player-pause:style(background-color:transparent!important;)
 ! Rule "vimedbarn.se##button:has-text(/annons/i):upward(.owl-item):remove()" converted to: "vimedbarn.se#$?#button:has-text(/annons/i):upward(.owl-item) { remove: true; }"
@@ -384,26 +398,20 @@ proffs.se##*::-webkit-scrollbar-thumb:style(background: #5e5e5e !important; bord
 proffs.se##*::-webkit-scrollbar:style(display: unset !important;)
 ! Rule "||fast.fonts.net/*/1.css$empty,domain=pbswisstools.com" converted to: "||fast.fonts.net/*/1.css$redirect=nooptext,domain=pbswisstools.com"
 ||fast.fonts.net/*/1.css$empty,domain=pbswisstools.com
-! Rule "temadagar.se##^script:has-text(__ez)" converted to: "temadagar.se$$script[tag-content="__ez"][max-length="262144"]"
-temadagar.se##^script:has-text(__ez)
 ! Rule "branschkoll.se,datormagazin.se,kimura.se,polistidningen.se,rocknytt.net,upphandling24.se,villalivet.se##^script:has-text(advads)" converted to: "branschkoll.se,datormagazin.se,kimura.se,polistidningen.se,rocknytt.net,upphandling24.se,villalivet.se$$script[tag-content="advads"][max-length="262144"]"
 branschkoll.se,datormagazin.se,kimura.se,polistidningen.se,rocknytt.net,upphandling24.se,villalivet.se##^script:has-text(advads)
 ! Unable to convert rule to AdGuard syntax: branschkoll.se,datormagazin.se,kimura.se,rocknytt.net,upphandling24.se,villalivet.se##^script[id^="advanced-ads"]
 branschkoll.se,datormagazin.se,kimura.se,rocknytt.net,upphandling24.se,villalivet.se##^script[id^="advanced-ads"]
+! Rule "nyafilmer.*##^script:has-text(_0xf)" converted to: "nyafilmer.*$$script[tag-content="_0xf"][max-length="262144"]"
+nyafilmer.*##^script:has-text(_0xf)
+! Rule "temadagar.se##^script:has-text(__ez)" converted to: "temadagar.se$$script[tag-content="__ez"][max-length="262144"]"
+temadagar.se##^script:has-text(__ez)
 ! Rule "/tapatalkdetect$1p,script" converted to: "/tapatalkdetect$~third-party,script"
 /tapatalkdetect$1p,script
 ! Rule "affarsstaden.se,boktugg.se,kurera.se,lundagard.se,morotsliv.com,nyfiknainvesterare.se##+js(aeld, wheel)" converted to: "affarsstaden.se,boktugg.se,kurera.se,lundagard.se,morotsliv.com,nyfiknainvesterare.se#%#//scriptlet('ubo-aeld.js', 'wheel')"
 affarsstaden.se,boktugg.se,kurera.se,lundagard.se,morotsliv.com,nyfiknainvesterare.se##+js(aeld, wheel)
 ! Rule "home2tiny.se##+js(aeld, /mousewheel|DOMMouseScroll/, smoothScrollEvent)" converted to: "home2tiny.se#%#//scriptlet('ubo-aeld.js', '/mousewheel|DOMMouseScroll/', 'smoothScrollEvent')"
 home2tiny.se##+js(aeld, /mousewheel|DOMMouseScroll/, smoothScrollEvent)
-Error: "Unknown pseudo-class ':advertising' in selector: '+js(set-local-storage-item, CMP:advertising, 0)'" in the rule: "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:advertising, 0)"
-aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:advertising, 0)
-Error: "Unknown pseudo-class ':analytics' in selector: '+js(set-local-storage-item, CMP:analytics, 0)'" in the rule: "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:analytics, 0)"
-aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:analytics, 0)
-Error: "Unknown pseudo-class ':marketing' in selector: '+js(set-local-storage-item, CMP:marketing, 0)'" in the rule: "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:marketing, 0)"
-aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:marketing, 0)
-Error: "Unknown pseudo-class ':personalisation' in selector: '+js(set-local-storage-item, CMP:personalisation, 0)'" in the rule: "aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:personalisation, 0)"
-aftonbladet.se,godare.se,livsstil.se,skonhetsredaktorerna.se##+js(set-local-storage-item, CMP:personalisation, 0)
 Error: "Unknown pseudo-class ':remove-class' in selector: 'html:remove-class(smartbanner-show)'" in the rule: "allsvenskan.se,superettan.se##html:remove-class(smartbanner-show)"
 allsvenskan.se,superettan.se##html:remove-class(smartbanner-show)
 Error: "Unknown pseudo-class ':remove-class' in selector: 'article:remove-class(closed)'" in the rule: "bioenergitidningen.se##article:remove-class(closed)"
@@ -412,8 +420,6 @@ Error: "Unknown pseudo-class ':remove-class' in selector: 'a.click-track-attachm
 byggahus.se##a.click-track-attachment-preview:remove-class(click-track-attachment-preview)
 Error: "Unknown pseudo-class ':remove-class' in selector: 'a.click-track:remove-class(click-track)'" in the rule: "byggahus.se##a.click-track:remove-class(click-track)"
 byggahus.se##a.click-track:remove-class(click-track)
-! Error: Invalid selector: '+js(set-cookie, CM_cookieConsent, 0)' -- '+js(set-cookie, CM_cookieConsent, 0)' is not a valid selector in rule:
-destination.se,sistaminuten.se##+js(set-cookie, CM_cookieConsent, 0)
 Error: "Unknown pseudo-class ':remove-attr' in selector: 'video:remove-attr(data-auto-play)'" in the rule: "di.se,dn.se##video:remove-attr(data-auto-play)"
 di.se,dn.se##video:remove-attr(data-auto-play)
 Error: "Unknown pseudo-class ':remove-class' in selector: 'body:remove-class(unselectable)'" in the rule: "discoveringtheplanet.com##body:remove-class(unselectable)"
@@ -438,6 +444,8 @@ Error: "Unknown pseudo-class ':remove-class' in selector: 'div:remove-class(with
 matinspo.se##div:remove-class(with-ads)
 Error: "Unknown pseudo-class ':remove-attr' in selector: 'a[onclick^="ANAL"]:remove-attr(onclick)'" in the rule: "mestmotor.se##a[onclick^="ANAL"]:remove-attr(onclick)"
 mestmotor.se##a[onclick^="ANAL"]:remove-attr(onclick)
+Error: "Unknown pseudo-class ':remove-class' in selector: 'body.modal-open:remove-class(modal-open)'" in the rule: "nyafilmer.*##body.modal-open:remove-class(modal-open)"
+nyafilmer.*##body.modal-open:remove-class(modal-open)
 Error: "Unknown pseudo-class ':remove-class' in selector: 'body:remove-class(cli-barmodal-open)'" in the rule: "tidningenridsport.se##body:remove-class(cli-barmodal-open)"
 tidningenridsport.se##body:remove-class(cli-barmodal-open)
 Error: "Unknown pseudo-class ':remove-class' in selector: 'body:remove-class(takeover-loading)'" in the rule: "tv.nu##body:remove-class(takeover-loading)"

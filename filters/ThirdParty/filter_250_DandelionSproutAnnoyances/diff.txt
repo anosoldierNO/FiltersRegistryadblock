@@ -594,6 +594,8 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ||tag.yieldoptimizer.com^$doc,popup
 ! Rule "||cpmstatsart.com^$doc" converted to: "||cpmstatsart.com^$document"
 ||cpmstatsart.com^$doc
+! Rule "/(^|\.|//)tkqlhce\.com/click-.*([?&][a-tv-z]{1,}(=[a-zA-Z0-9]{1,})?){1,}$/$doc" converted to: "/(^|\.|//)tkqlhce\.com/click-.*([?&][a-tv-z]{1,}(=[a-zA-Z0-9]{1,})?){1,}$/$document"
+/(^|\.|//)tkqlhce\.com/click-.*([?&][a-tv-z]{1,}(=[a-zA-Z0-9]{1,})?){1,}$/$doc
 ! Rule "||forwrdnow.com^$doc" converted to: "||forwrdnow.com^$document"
 ||forwrdnow.com^$doc
 ! Rule "||7lyonline.com^$doc" converted to: "||7lyonline.com^$document"
@@ -934,6 +936,8 @@ linkedin.com#?#body:style(overflow: auto !important;)
 /&[a-z]{1,2}=[a-zA-Z0-9]{0,}%[a-zA-Z0-9%]{1000,}$/$doc
 ! Rule "||go.redirected*/click?^$doc,popup" converted to: "||go.redirected*/click?^$document,popup"
 ||go.redirected*/click?^$doc,popup
+! Rule "||livejasmin.com/*&origin=$doc" converted to: "||livejasmin.com/*&origin=$document"
+||livejasmin.com/*&origin=$doc
 ! Rule "://hullcitytigers.com^$doc" converted to: "://hullcitytigers.com^$document"
 ://hullcitytigers.com^$doc
 ! Rule "/pgxhtogrzm-$doc" converted to: "/pgxhtogrzm-$document"
@@ -1506,8 +1510,8 @@ $doc,removeparam=/^amp=1$/,domain=newsweek.com
 $doc,removeparam=/^outputType=amp$/
 ! Rule "$doc,removeparam=/^ecid=/i,domain=~account.microsoft.com" converted to: "$document,removeparam=/^ecid=/i,domain=~account.microsoft.com"
 $doc,removeparam=/^ecid=/i,domain=~account.microsoft.com
-! Rule "$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*" converted to: "$removeparam=eid,document,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*"
-$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*
+! Rule "$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*|~getqpay.com" converted to: "$removeparam=eid,document,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*|~getqpay.com"
+$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*|~getqpay.com
 ! Rule "$doc,removeparam=/^bsft_/" converted to: "$document,removeparam=/^bsft_/"
 $doc,removeparam=/^bsft_/
 ! Rule "$doc,removeparam=/^dpg_/" converted to: "$document,removeparam=/^dpg_/"
@@ -1574,8 +1578,8 @@ $removeparam=__s,doc
 $doc,removeparam=_clde
 ! Rule "$doc,removeparam=_cldee" converted to: "$document,removeparam=_cldee"
 $doc,removeparam=_cldee
-! Rule "$removeparam=ref,doc,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fig.io|foreca.*|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com" converted to: "$removeparam=ref,document,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fig.io|foreca.*|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com"
-$removeparam=ref,doc,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fig.io|foreca.*|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com
+! Rule "$removeparam=ref,doc,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fairphone.com|fig.io|foreca.*|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com" converted to: "$removeparam=ref,document,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fairphone.com|fig.io|foreca.*|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com"
+$removeparam=ref,doc,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blinkforhome.com|blogit.fi|bookdepository.com|brave.com|browserstack.com|business.twitter.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|cmjornal.pt|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|ettoday.net|emsisoft.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fairphone.com|fig.io|foreca.*|geeksforgeeks.org|github.io|goodreads.com|greenhouse.io|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|proton.me|protonvpn.com|puutarha.net|rakentaja.fi|record.pt|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com
 ! Rule "$removeparam=src,doc,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|getpocket.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|tandfonline.com|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com" converted to: "$removeparam=src,document,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|getpocket.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|tandfonline.com|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com"
 $removeparam=src,doc,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|getpocket.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|tandfonline.com|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com
 ! Rule "$doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|bluemountain.com|boscovs.com|boxboat.com|britishcornershop.co.uk|brownells.*|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|educba.com|edx.org|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hbomax.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|jobs.deepl.com|just-eat.co.uk|kasta.io|ladbible.com|learn.microsoft.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|netflix.com|nortonsafe.search.ask.com|ngx.me|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|quizlet.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|theathletic.com|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|trendmicro.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|xd.wayin.com|ylighting.com|youtube.com|yubo.live" converted to: "$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|bluemountain.com|boscovs.com|boxboat.com|britishcornershop.co.uk|brownells.*|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|educba.com|edx.org|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hbomax.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|jobs.deepl.com|just-eat.co.uk|kasta.io|ladbible.com|learn.microsoft.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|netflix.com|nortonsafe.search.ask.com|ngx.me|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|quizlet.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|theathletic.com|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|trendmicro.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|xd.wayin.com|ylighting.com|youtube.com|yubo.live"
@@ -1790,6 +1794,8 @@ $doc,removeparam=user_email_address
 ||twitter.com^$doc,removeparam=cn
 ! Rule "$doc,domain=bilibili.com|querie.me,removeparam=timestamp" converted to: "$document,domain=bilibili.com|querie.me,removeparam=timestamp"
 $doc,domain=bilibili.com|querie.me,removeparam=timestamp
+! Rule "||demo.thisischip.com^$doc,removeparam=o" converted to: "||demo.thisischip.com^$document,removeparam=o"
+||demo.thisischip.com^$doc,removeparam=o
 ! Rule "actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)" converted to: "actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com#%#//scriptlet('ubo-set.js', 'GSvars.addressTracking', 'false')"
 actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 ! Rule "buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)" converted to: "buffalonews.com#%#//scriptlet('ubo-set.js', 'lee_trkLinkSrc', 'noopFunc')"
@@ -9400,8 +9406,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||virpropcnow.xyz^$all,~in
 ||virpropcnow.xyz^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||avprotectionoverview.com^$all,~inline-font"
 ||avprotectionoverview.com^$all,~inline-font
-Error: "Unknown modifier: ~inline-font" in the rule: "||tkqlhce.com^$all,~inline-font"
-||tkqlhce.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||discordap.com^$all,~inline-font"
 ||discordap.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||mybetterdl.com^$all,~inline-font"
@@ -27970,8 +27974,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||differencedisinheritpass
 ||differencedisinheritpass.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||diffusedisgusted.com^$all,~inline-font"
 ||diffusedisgusted.com^$all,~inline-font
-Error: "Rule has spaces, seems to be an host rule" in the rule: "||DigitalOcean, LLC^$all,~inline-font"
-||DigitalOcean, LLC^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||dignifiedclipbum.com^$all,~inline-font"
 ||dignifiedclipbum.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||diketime.com^$all,~inline-font"
@@ -29198,8 +29200,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||goodwilldetriment.com^$a
 ||goodwilldetriment.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||goodygumsabbreviate.com^$all,~inline-font"
 ||goodygumsabbreviate.com^$all,~inline-font
-Error: "Rule has spaces, seems to be an host rule" in the rule: "||Google LLC^$all,~inline-font"
-||Google LLC^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||goosetension.com^$all,~inline-font"
 ||goosetension.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||gorgecollisioncovering.com^$all,~inline-font"
@@ -34482,6 +34482,102 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||zapprecisionadmire.com^$
 ||zapprecisionadmire.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||zealousstraitcommit.com^$all,~inline-font"
 ||zealousstraitcommit.com^$all,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||apbbjmp.com^$all,~inline-script"
+||apbbjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||apptjmp.com^$all,~inline-script"
+||apptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awbbgate.com^$all,~inline-script"
+||awbbgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awbbjmp.com^$all,~inline-script"
+||awbbjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awecrjmp.com^$all,~inline-script"
+||awecrjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awecrptjmp.com^$all,~inline-script"
+||awecrptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awejmp.com^$all,~inline-script"
+||awejmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||aweptjmp.com^$all,~inline-script"
+||aweptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awptjmp.com^$all,~inline-script"
+||awptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||bbcrgate.com^$all,~inline-script"
+||bbcrgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||bbentgate.com^$all,~inline-script"
+||bbentgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||chryjmp.com^$all,~inline-script"
+||chryjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||click.jasmin.com^$all,~inline-script"
+||click.jasmin.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crbbgate.com^$all,~inline-script"
+||crbbgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crbbjmp.com^$all,~inline-script"
+||crbbjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crengate.com^$all,~inline-script"
+||crengate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crentexgate.com^$all,~inline-script"
+||crentexgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crentgate.com^$all,~inline-script"
+||crentgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crepgate.com^$all,~inline-script"
+||crepgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||cretgate.com^$all,~inline-script"
+||cretgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crjpgate.com^$all,~inline-script"
+||crjpgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crjpingate.com^$all,~inline-script"
+||crjpingate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crjugate.com^$all,~inline-script"
+||crjugate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crmentjg.com^$all,~inline-script"
+||crmentjg.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crptentry.com^$all,~inline-script"
+||crptentry.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crptgate.com^$all,~inline-script"
+||crptgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crtajmp.com^$all,~inline-script"
+||crtajmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crtjmp.com^$all,~inline-script"
+||crtjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crtmainjmp.com^$all,~inline-script"
+||crtmainjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||entjgcr.com^$all,~inline-script"
+||entjgcr.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmcrjmp.com^$all,~inline-script"
+||jsmcrjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmcrptjmp.com^$all,~inline-script"
+||jsmcrptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmentry.com^$all,~inline-script"
+||jsmentry.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmjmp.com^$all,~inline-script"
+||jsmjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmptjmp.com^$all,~inline-script"
+||jsmptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||mptentry.com^$all,~inline-script"
+||mptentry.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||mptgate.com^$all,~inline-script"
+||mptgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||protojsmgw.com^$all,~inline-script"
+||protojsmgw.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||prtord.com^$all,~inline-script"
+||prtord.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptapjmp.com^$all,~inline-script"
+||ptapjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptbbjmp.com^$all,~inline-script"
+||ptbbjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptcrwmjmp.com^$all,~inline-script"
+||ptcrwmjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptentry.com^$all,~inline-script"
+||ptentry.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptosrd.com^$all,~inline-script"
+||ptosrd.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptwmbed.com^$all,~inline-script"
+||ptwmbed.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptwmjmp.com^$all,~inline-script"
+||ptwmjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||wmptengate.com^$all,~inline-script"
+||wmptengate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||93.93.51.223^$all,~inline-script"
+||93.93.51.223^$all,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||downloadprovider.me^$all,~inline-font"
 ||downloadprovider.me^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||cash93.com^$all,~inline-font"
@@ -44952,8 +45048,8 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||gymsharksalg.com^$all,~i
 ||gymsharksalg.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||nauticadanmark.com^$all,~inline-font"
 ||nauticadanmark.com^$all,~inline-font
-Error: "Unknown modifier: ~inline-font" in the rule: "||gymsharkklærnorge.com^$all,~inline-font"
-||gymsharkklærnorge.com^$all,~inline-font
+Error: "Unknown modifier: ~inline-font" in the rule: "||xn--gymsharkklrnorge-3ob.com^$all,~inline-font"
+||xn--gymsharkklrnorge-3ob.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||bershkadenmark.com^$all,~inline-font"
 ||bershkadenmark.com^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||louboutinnorges.com^$all,~inline-font"
@@ -45056,8 +45152,8 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||livraison-colis-suivi.
 ||livraison-colis-suivi.fr^$all,~inline-script
 Error: "Unknown modifier: ~inline-script" in the rule: "||monespace-iaposte.fr^$all,~inline-script"
 ||monespace-iaposte.fr^$all,~inline-script
-Error: "Unknown modifier: ~inline-script" in the rule: "||monespacesantéfr.com^$all,~inline-script"
-||monespacesantéfr.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||xn--monespacesantfr-nnb.com^$all,~inline-script"
+||xn--monespacesantfr-nnb.com^$all,~inline-script
 Error: "Unknown modifier: ~inline-script" in the rule: "||netfiixhungary.net^$all,~inline-script"
 ||netfiixhungary.net^$all,~inline-script
 Error: "Unknown modifier: ~inline-script" in the rule: "||myupdate-hu.com^$all,~inline-script"
@@ -45158,10 +45254,102 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||213.227.149.211^$all,~in
 ||213.227.149.211^$all,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||amazonaws.com^$all,~inline-font,badfilter"
 ||amazonaws.com^$all,~inline-font,badfilter
-Error: "Rule has spaces, seems to be an host rule" in the rule: "||DigitalOcean, LLC^$all"
-||DigitalOcean, LLC^$all
 Error: "Rule has spaces, seems to be an host rule" in the rule: "||Google LLC^$all"
 ||Google LLC^$all
+Error: "Unknown modifier: ~inline-script" in the rule: "||apbbjmp.com^$all,~inline-script"
+||apbbjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||apptjmp.com^$all,~inline-script"
+||apptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awbbgate.com^$all,~inline-script"
+||awbbgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awbbjmp.com^$all,~inline-script"
+||awbbjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awecrjmp.com^$all,~inline-script"
+||awecrjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awecrptjmp.com^$all,~inline-script"
+||awecrptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awejmp.com^$all,~inline-script"
+||awejmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||aweptjmp.com^$all,~inline-script"
+||aweptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||awptjmp.com^$all,~inline-script"
+||awptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||bbcrgate.com^$all,~inline-script"
+||bbcrgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||bbentgate.com^$all,~inline-script"
+||bbentgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||chryjmp.com^$all,~inline-script"
+||chryjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||click.jasmin.com^$all,~inline-script"
+||click.jasmin.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crbbgate.com^$all,~inline-script"
+||crbbgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crbbjmp.com^$all,~inline-script"
+||crbbjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crengate.com^$all,~inline-script"
+||crengate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crentexgate.com^$all,~inline-script"
+||crentexgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crentgate.com^$all,~inline-script"
+||crentgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crepgate.com^$all,~inline-script"
+||crepgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||cretgate.com^$all,~inline-script"
+||cretgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crjpgate.com^$all,~inline-script"
+||crjpgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crjpingate.com^$all,~inline-script"
+||crjpingate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crjugate.com^$all,~inline-script"
+||crjugate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crmentjg.com^$all,~inline-script"
+||crmentjg.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crptentry.com^$all,~inline-script"
+||crptentry.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crptgate.com^$all,~inline-script"
+||crptgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crtajmp.com^$all,~inline-script"
+||crtajmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crtjmp.com^$all,~inline-script"
+||crtjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||crtmainjmp.com^$all,~inline-script"
+||crtmainjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||entjgcr.com^$all,~inline-script"
+||entjgcr.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmcrjmp.com^$all,~inline-script"
+||jsmcrjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmcrptjmp.com^$all,~inline-script"
+||jsmcrptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmentry.com^$all,~inline-script"
+||jsmentry.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmjmp.com^$all,~inline-script"
+||jsmjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||jsmptjmp.com^$all,~inline-script"
+||jsmptjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||mptentry.com^$all,~inline-script"
+||mptentry.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||mptgate.com^$all,~inline-script"
+||mptgate.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||protojsmgw.com^$all,~inline-script"
+||protojsmgw.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||prtord.com^$all,~inline-script"
+||prtord.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptapjmp.com^$all,~inline-script"
+||ptapjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptbbjmp.com^$all,~inline-script"
+||ptbbjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptcrwmjmp.com^$all,~inline-script"
+||ptcrwmjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptentry.com^$all,~inline-script"
+||ptentry.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptosrd.com^$all,~inline-script"
+||ptosrd.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptwmbed.com^$all,~inline-script"
+||ptwmbed.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||ptwmjmp.com^$all,~inline-script"
+||ptwmjmp.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||wmptengate.com^$all,~inline-script"
+||wmptengate.com^$all,~inline-script
 Error: "Rule with $all modifier can not be allowlist rule" in the rule: "@@||discord.gift^$all"
 @@||discord.gift^$all
 Error: "Unknown modifier: ~inline-script" in the rule: "||95-214-26-78.plesk.page^$all,~inline-script"
@@ -45216,8 +45404,8 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||livraison-colis-suivi.
 ||livraison-colis-suivi.fr^$all,~inline-script
 Error: "Unknown modifier: ~inline-script" in the rule: "||monespace-iaposte.fr^$all,~inline-script"
 ||monespace-iaposte.fr^$all,~inline-script
-Error: "Unknown modifier: ~inline-script" in the rule: "||monespacesantéfr.com^$all,~inline-script"
-||monespacesantéfr.com^$all,~inline-script
+Error: "Unknown modifier: ~inline-script" in the rule: "||xn--monespacesantfr-nnb.com^$all,~inline-script"
+||xn--monespacesantfr-nnb.com^$all,~inline-script
 Error: "Unknown modifier: ~inline-script" in the rule: "||netfiixhungary.net^$all,~inline-script"
 ||netfiixhungary.net^$all,~inline-script
 Error: "Unknown modifier: ~inline-script" in the rule: "||myupdate-hu.com^$all,~inline-script"

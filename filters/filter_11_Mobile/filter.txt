@@ -167,6 +167,8 @@
 ||appodeal.com^
 ||a.320981a9244924ef86ebdbb9eb877e9f21ce83f1e3cc89b2c5e7c3ff.com^
 !
+||ad.buzzvil.com^
+||screen.buzzvil.com^
 ||adstrategy.biz.weibo.com^
 ||ad.weibo.com^
 ||geoloc.yospace.com^
@@ -209,6 +211,7 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||ads*.bojijulebu.com^
 ||stream.spongead.com^
 ||naverpa-phinf.pstatic.net^
 ||tivan.naver.com^
@@ -1177,6 +1180,13 @@ turbopages.org##.page__result > div[class*="type_native"]
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 !
+hog.mobi#?#.content__info:has(> ul.info__list > li.info__item > div.info__link > div#video_view_mobile_under_player-adv)
+hog.mobi#?#.content__body > section.related-view:has(> div[id$="-adv"])
+hog.mobi#?#.content__body > div.content__info:has(> ul.info__list > li.info__item > h3.info__title.info__title:contains(Sponsored by))
+fontanka.ru#?#header > div[class] > div[class]:has(> div[data-test="widget-cms-block"])
+sexu.site#?#.info__item:has(> .info__link > div[id$="_player-adv"])
+notebookcheck.net#?#.nbc-right-float-inline:has(> div[id^="adngin-"])
+90min.de#?#main > figure:has(> div > div#mm-player-placeholder-smallAndMedium-screens)
 donnerwetter.de#?#div[class^="col-"] > div.prepend-top:has(> center > ins.adsbygoogle)
 radio.net#?##stationpage-holder > div:has(div[id^="RAD_M_station_incontent-"])
 sueddeutsche.de#?#article > div[data-manual-remove="true"]:has(> div[id^="iqadt"])
@@ -1816,6 +1826,11 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/159787
+monamona2525.com#$##im_interstitial { display: none !important; }
+monamona2525.com#$#body { overflow: auto !important; position: static !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/159490
+dictionary.com#$#body[class] > div.wrapper { padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158759
 kinobar.vip#$?#.has-brand { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158575
@@ -2256,6 +2271,8 @@ motherless.com$$script[tag-content="awentw.com"][min-length="2000"][max-length="
 @@||api.apptentive.com^$app=de.mcdonalds.mcdonaldsinfoapp
 @@||customer.iad-03.braze.com^$app=de.burgerking.kingfinder
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/159251
+@@||securepubads.g.doubleclick.net^$app=jp.naver.line.android
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158370
 @@||imasdk.googleapis.com^$app=ch.iAgentur.i20MinFr
 ! https://play.google.com/store/apps/details?id=fm.tokfm.android
@@ -2532,6 +2549,10 @@ motherless.com$$script[tag-content="awentw.com"][min-length="2000"][max-length="
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/159717
+semana.es##.sticky-ads-position
+! https://github.com/AdguardTeam/AdguardFilters/issues/159698
+live.fc2.com#@#img[width="320"][height="50"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157080
 huffpost.com,huffingtonpost.jp#@#.ad-leaderboard-flex
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152943
@@ -2629,7 +2650,6 @@ mrmoneymustache.com#@#.custom-ad
 ||yads.c.yimg.jp/js/yads-async.js$script,redirect=noopjs,important,domain=map.yahoo.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54357
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=as-selection.net
-as-selection.net#@#.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54380
 !#if (adguard_ext_android_cb)
 @@||ypncdn.com^$domain=youporn.com
@@ -2753,7 +2773,6 @@ med1.de#@#div[id^="imAd_"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/7900
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vorsprung-online.de
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=vorsprung-online.de
-vorsprung-online.de#@#.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8001
 reviews.mtbr.com#@#.header-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6807
@@ -2958,12 +2977,42 @@ amp.marca.com,gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgame
 ! ##amp-ad
 handelsblatt.com,moyens.net,ign.com,gazeteduvar.com.tr,innpoland.pl,wired.com,sports.ru,manager-magazin.de,amp.macwelt.de,amp.fitforfun.de,tomsguide.com,nordbayern.de,dallasnews.com,kansascity.com,futurezone.de,fr.de,spox.com,ran.de,stern.de,ruhr24.de,golem.de,berliner-zeitung.de,news.de,abendzeitung-muenchen.de,inside-digital.de,boerse.de,emtb-news.de,caravaning.de,areadvd.de,familie.de,derwesten.de,finanzen.net,o2.pl,onet.pl,whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.com,techbook.de,forbes.com,auto-swiat.pl,dialog.ua,mobile.reuters.com,spiegel.de,amp.welt.de,forum.xda-developers.com,sueddeutsche.de,amp.usatoday.com,m.gadgets.ndtv.com##amp-ad
 ! ##.ads
-memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
+ranky-ranking.net,memo.onl.jp,daily-sun.com,home.kingsoft.jp,berkem.ru,pixiv.net,cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 ! ##.ad
-transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
+dictionary.com,transfermarkt.de,iyf.tv,macwelt.de,pcwelt.de,xataka.com.mx,shikiho.toyokeizai.net,newsee-media.com,rank1-media.com,m.proporn.com,rakuraku-info.jp,sugoren.com,dailynewsonline.jp,yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 !
 ! SECTION: Regular rules
 !
+m.basketnews.com##.snackStickyParent
+uzmanparam.milliyet.com.tr##div[style="min-height: 250px;display: flex;justify-content: center;align-items: center;"]
+worldcrunch.com##body .listicle-ad
+justthegays.com###block-33
+justthegays.com###block-31
+||m.tbiquge.com/scripts/rd8v.js
+soccerstats.com###content_old > div[style*="padding-bottom:"]:not([id])
+soccerstats.com##div[style*="margin-top:"]:not([id]) div[style*="padding-bottom:"]
+porndr.com##div[style="text-align: center; display: block; margin: 0px 0px 10px;"]
+porndr.com,freeporn8.com##.top
+freeporn8.com##.mobile_nav.pignr
+hotmovs.com##.video-page > div > div > div:empty
+tv.yahoo.co.jp##.adMmon
+kinonews.ru##.place2
+kinonews.ru##div[style^="max-width:728px"]
+hostlove.com##div[style="padding-top:-10px;margin-bottom:20px;"]
+gentosha-go.com###ggo_280_wrapper
+sexytvcap.com##div[style="margin:0;padding:5px;font-size: 13px;word-break: break-all;text-align: center;"]
+megamich.com##.PR-cm
+ranky-ranking.net##div[style^="padding-top: 10px;"]
+willyoupressthebutton.com##.midInCnt
+finanzen.net###m_mrec
+h2ch.com##div[style="background-color:#eee;width:100%;height:50px;"]
+stars.glavred.info##div[style="height:320px;clear: both"]
+computerbild.de###mrec_btf
+computerbild.de##.bannerContainer
+cnbctv18.com##.amp-mid-article
+cnbctv18.com##.amptaboola
+cnbctv18.com##.amptaboolaMid
+cnbctv18.com##.amp-bottom-sticky
 agazeta.com.br##.mrec_destaque
 hackster.io###project_page_simple_ad_portal
 heraldo.es##.prometeoArticleBottom
@@ -3357,7 +3406,7 @@ imtest.de##div[class^="contentAd"]
 detail.chiebukuro.yahoo.co.jp##aside[class^="Detail_chie-Pages__AdNM_"]
 m.eprice.com.tw###m-m300-250-n
 m.eprice.com.tw##body .popup-adv
-spankbang-dl.com,fig-memo-r18.site###overlay_area
+erodera.net,spankbang-dl.com,fig-memo-r18.site###overlay_area
 laopinion.com.co##.header_suscripciones
 live.kufu.co.jp##.banner_sp_container
 m.sohu.com##.f-list > div[data-spm^="ad-"]
@@ -5523,7 +5572,7 @@ bigpian.cn##img[style="width: 100%"]
 ||leku99.net/js/bottom.js
 ||6080aa.com/zhongguo/
 ||xdytt.com/b_*.js
-porntube.com##.interstitial
+pornerbros.com,porntube.com##.interstitial
 m.3movs.com###int-over
 m.3movs.com##span[id="3Mm-Nat"]
 porntrex.com##iframe[src^="https://a.adtng.com/"]
@@ -5616,7 +5665,7 @@ m.republicworld.com###appWindow div[style^="justify-content: center; margin: 0px
 bbs.51credit.com##[data-adshow]
 bbs.51credit.com##[data-adid]
 tv889.com##.topbanner
-fux.com##.video-list-top-ad
+pornerbros.com,fux.com##.video-list-top-ad
 eporner.com###admobiletop
 fxykx.com##a[href*="zyttx.com/"]
 m.timesofindia.com##.amz-box.shop
@@ -5851,13 +5900,6 @@ mail.yahoo.com##a[href*="beap.gemini.yahoo.com/bmclk"]
 mail.yahoo.com##form[name="showFolderForm"] > div.mb
 m.rp5.by,m.rp5.kz,m.rp5.ru##div[onclick*="/reClickAdvert.php?key="]
 gizchina.com,01net.com,ghacks.net,sagligabiradim.com##.mrf-adv
-||momon-ga.com/*/pickup1.js
-||momon-ga.com/*/pickup2.js
-momon-ga.com###lite_link > .list-box
-momon-ga.com##.section-box > .plugin-blogroll
-momon-ga.com##.article-body-more > .post-footer
-momon-ga.com##.content > div[style="margin-bottom:12px;"]
-momon-ga.com##.container-inner > div[style="margin-bottom:12px;"]
 digit.in##.footerCatfishAdArea
 digit.in##iframe[src^="/blockarticledetailad/"][title="Advertisement"]
 thesaurus.weblio.jp##.adThesaurus
@@ -6259,7 +6301,7 @@ m.sondakika.com###reksa
 m.sondakika.com##.home_300x250
 m.sondakika.com##div > .widget_partner[style]
 m.sondakika.com###news-list-container > ul > li[style]:not([data-haber-id])
-vikiporn.com,wankoz.com,sleazyneasy.com,pornicom.com,rat.xxx,vikiporn.com,zbporn.com,sleazyneasy.com,fetishshrine.com,m.katestube.com##.top-spot
+vikiporn.com,wankoz.com,sleazyneasy.com,pornicom.com,rat.xxx,vikiporn.com,zbporn.com,sleazyneasy.com,fetishshrine.com,katestube.com##.top-spot
 vikiporn.com,sleazyneasy.com,m.pornicom.com,m.fetishshrine.com,m.katestube.com##.bottom-spot
 m.milliyet.com.tr##.Masthead > #div-320x100
 m.milliyet.com.tr##a[href^="http://secure.milliyet.com.tr/redirect/Default.aspx?"][target="_blank"] > article
@@ -7070,7 +7112,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 ||app.adjust.com^$app=com.easybrain.nonogram|ru.pikabu.android|com.maroieqrwlk.unpin|com.touchtao.soccerkinggoogle|com.mobirix.zumaking2|com.mobirix.swipebrick2|com.mobirix.mahjongking2|com.mobirix.hit7.casino.slots|com.mobirix.gmm|com.mobirix.fishingchampionship|com.mobirix.airhockey|com.mobirix.abmon|com.mobirix.MultiplyWar
 !
 ! Yandex ads in mobile apps
-://yandex.ru^$app=ru.learnwordswithmuttt.multiplicationtable|com.oxothukscan|ru.zen.android|ru.sports.f1|ru.tabor.search|com.balley|flipboard.app|black.wall7Fon|ru.mamba.client|se.scmv.belarus|ru.rp5.rp5weatherhorizontal|com.jagplay.client.android.app.thousand.hd|com.alex_ip.coins|an.osintsev.allcoinrus|an.osintsev.caesar|an.osintsev.flake|an.osintsev.ruscollector|an.osintsev.usaeurocoins|an.osintsev.worldbons|an.osintsev.germany|an.osintsev.bonrus|an.osintsev.sngcoins|an.osintsev.collection|an.osintsev.region|kz.tengrinews|com.DL.war.planes.inc.torpedo.bomber.fighter.aircraft.ww2|com.anyreads.patephone|com.jewels.gems.android|com.petrik.shifshedule|com.droid27.d3flipclockweather|com.infoshell.recradio|ru.topradio|ru.wall7Fon|ru.ngs.news.ngs55|com.infoshell.recradio|com.narde.backgammon.game|org.aastudio.games.longnards|com.gazstation|kz.krisha|com.swiftsoft.anixartd|com.sshex.sberometr|com.region|com.metalsoft.trackchecker_mobile|com.indie.bustime|com.WildDrewGames.Galaganoid|com.WildDrewGames.BlockPuzzleClayWorld|com.WildDrewGames.SweetPopIt|ru.innim.my_finance|ru.idaprikol|com.olvic.gigiprikol|ru.yandex.mail|jabi.pdd2|ru.ria.ria|limehd.ru.ctv|ru.swc.yaplakalcom|ru.sports|com.nektome.talk|com.avito.android|ru.gdeposylka.delta|ru.alexeydubinin.holidays|ru.pikabu.android|molokov.TVGuide|com.zigzag_mobile.skorolek|ru.mail.love|ru.sports.primera|ru.sports.spartak|ru.sports.epl|ru.sports.barcelona|ru.sports.real|ru.sports.zenit|ru.sports.manutd|ru.sports.chelsea|ru.hh.android|bubble.shooter.pop.games.pet.rescue|bubble.shooter.pop.puzzle.game|color.sorting.games.ball.sort.puzzle|com.battle.deskmate|conquer.the.city.takeover.battle|sortpuz.water.sort.puzzle.game|sortpuz.water.sort.puzzle.game|tic.tac.toe.xoxo.xo.two.player|two.player.online.games.finger.tap.battle|two.three.four.player.game.mini.games|water.sorting.games.liquid.color.sort.puzzle|com.fingerlab.word.blockpuzzles|com.crypto.currency|com.fusionmedia.investing|com.holden.radio|com.memeglish.learn.english.language.words.by.memes|com.openmygame.games.android.jigsawpuzzle|drug.vokrug|monitor.kmv.multinotes|ru.tutu.etrains|ru.yandex.rasp|by.denchik.assyst|ru.profmedia.avtoradio|com.didenko.and.partners.durak|com.vertaler.rues|net.sit30.calories|ferp.android|ru.ideer.android|ru.centerion.fiesta_images|ru.centerion.beloved_man|ru.centerion.favorite_girl|ru.centerion.funny_greetings|org.aastudio.games.backgammon|video.player.videoplayer|su.stations.record|com.swiftsoft.anixartlt|com.tadiuzzz.tadius.mysalary|com.mobile_infographics_tools.mydrive|com.mobile_infographics_tools.patternmaker|com.mobile_infographics_tools.mydrive_ext
+://yandex.ru^$app=ru.learnwordswithmuttt.multiplicationtable|com.oxothukscan|ru.zen.android|ru.sports.f1|ru.tabor.search|com.balley|flipboard.app|black.wall7Fon|ru.mamba.client|se.scmv.belarus|ru.rp5.rp5weatherhorizontal|com.jagplay.client.android.app.thousand.hd|com.alex_ip.coins|an.osintsev.allcoinrus|an.osintsev.caesar|an.osintsev.flake|an.osintsev.ruscollector|an.osintsev.usaeurocoins|an.osintsev.worldbons|an.osintsev.germany|an.osintsev.bonrus|an.osintsev.sngcoins|an.osintsev.collection|an.osintsev.region|kz.tengrinews|com.DL.war.planes.inc.torpedo.bomber.fighter.aircraft.ww2|com.anyreads.patephone|com.jewels.gems.android|com.petrik.shifshedule|com.droid27.d3flipclockweather|com.infoshell.recradio|ru.topradio|ru.wall7Fon|ru.ngs.news.ngs55|com.infoshell.recradio|com.narde.backgammon.game|org.aastudio.games.longnards|com.gazstation|kz.krisha|com.swiftsoft.anixartd|com.sshex.sberometr|com.region|com.metalsoft.trackchecker_mobile|com.indie.bustime|com.WildDrewGames.Galaganoid|com.WildDrewGames.BlockPuzzleClayWorld|com.WildDrewGames.SweetPopIt|ru.innim.my_finance|ru.idaprikol|com.olvic.gigiprikol|ru.yandex.mail|jabi.pdd2|ru.ria.ria|limehd.ru.ctv|ru.swc.yaplakalcom|ru.sports|com.nektome.talk|com.avito.android|ru.gdeposylka.delta|ru.alexeydubinin.holidays|ru.pikabu.android|molokov.TVGuide|com.zigzag_mobile.skorolek|ru.mail.love|ru.sports.primera|ru.sports.spartak|ru.sports.epl|ru.sports.barcelona|ru.sports.real|ru.sports.zenit|ru.sports.manutd|ru.sports.chelsea|ru.hh.android|bubble.shooter.pop.games.pet.rescue|bubble.shooter.pop.puzzle.game|color.sorting.games.ball.sort.puzzle|com.battle.deskmate|conquer.the.city.takeover.battle|sortpuz.water.sort.puzzle.game|sortpuz.water.sort.puzzle.game|tic.tac.toe.xoxo.xo.two.player|two.player.online.games.finger.tap.battle|two.three.four.player.game.mini.games|water.sorting.games.liquid.color.sort.puzzle|com.fingerlab.word.blockpuzzles|com.crypto.currency|com.fusionmedia.investing|com.holden.radio|com.memeglish.learn.english.language.words.by.memes|com.openmygame.games.android.jigsawpuzzle|drug.vokrug|monitor.kmv.multinotes|ru.tutu.etrains|ru.yandex.rasp|by.denchik.assyst|ru.profmedia.avtoradio|com.didenko.and.partners.durak|com.vertaler.rues|net.sit30.calories|ferp.android|ru.ideer.android|ru.centerion.fiesta_images|ru.centerion.beloved_man|ru.centerion.favorite_girl|ru.centerion.funny_greetings|org.aastudio.games.backgammon|video.player.videoplayer|su.stations.record|com.swiftsoft.anixartlt|com.tadiuzzz.tadius.mysalary|com.mobile_infographics_tools.mydrive|com.mobile_infographics_tools.patternmaker|com.mobile_infographics_tools.mydrive_ext|ru.sports.serie_a|com.merigotech.fillwords
 ||77.88.$app=com.oxothukscan|ru.pikabu.android|ru.ideer.android|com.didenko.and.partners.durak|com.mobile_infographics_tools.mydrive|com.mobile_infographics_tools.patternmaker|com.mobile_infographics_tools.mydrive_ext
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155650

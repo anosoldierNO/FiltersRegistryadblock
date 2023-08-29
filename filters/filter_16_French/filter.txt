@@ -135,6 +135,10 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/159865
+france.tv#%#//scriptlet('prevent-fetch', 'fwmrm')
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||v.fwmrm.net/ad/$domain=france.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159263
 lameteoagricole.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -200,9 +204,6 @@ geo.fr,capital.fr#%#(()=>{const a=function(){};window.apstag={fetchBids(c,a){"fu
 cyclismactu.net#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'AdBlocker')
 ! https://github.com/uBlockOrigin/uAssets/issues/12288#issuecomment-1374805715
 @@||dcode.fr/static/ads/ad_service.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/138686
-forumdz.com#@#.adsbygoogle
-forumdz.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136196
 signal-arnaques.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -218,8 +219,6 @@ lemanip.com#%#//scriptlet("abort-current-inline-script", "document.createElement
 signal-arnaques.com#%#//scriptlet("set-constant", "moneyAbovePrivacy", "true")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/129913
 trackmusik.fr#@#.AdSense
-trackmusik.fr#@#.adsbygoogle
-trackmusik.fr#$#.adsbygoogle { height: 0 !important; }
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=trackmusik.fr
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=trackmusik.fr,important
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy*.js$domain=trackmusik.fr
@@ -385,9 +384,6 @@ bleachmx.fr#%#//scriptlet("abort-on-property-read", "mdpDeBlocker")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53875
 @@||leakgaming.fr/js/*/Adsplex-shu.js
 leakgaming.fr#%#//scriptlet("abort-current-inline-script", "$", "!document.getElementById(btoa")
-! https://github.com/AdguardTeam/AdguardFilters/issues/52613
-fiches-auto.fr#@#.adsbygoogle
-fiches-auto.fr#$##TJSdetection.adsbygoogle { display: block!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52169
 salutbonjour.ca#%#//scriptlet("set-constant", "initDetectAdBlock", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67028
@@ -408,17 +404,11 @@ lesacdechips.com#$#body { overflow: visible !important; }
 @@||espacesoignant.com/templates/css/adblocker.blogads.css
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46876
 ||consent.prismamedia.com^$domain=cuisineactuelle.fr
-! https://github.com/AdguardTeam/AdguardFilters/issues/46434
-impotsurlerevenu.org#@#.adsbygoogle
-impotsurlerevenu.org#$#.adsbygoogle { height: 1px!important; display: block!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43816
 @@||hack-life.net/js/siropu/am/ads.min.js
 hack-life.net#%#//scriptlet("set-constant", "adBlockDetected", "false")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43364
 ||twch.femina.ch^
-! https://github.com/AdguardTeam/AdguardFilters/issues/41480
-mtlurb.com#@#.adsbygoogle
-mtlurb.com#$#.adsbygoogle { display: block!important; position: absolute!important; left: -3000px!important; }
 ! recreatisse.com - antiadblock
 recreatisse.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "adback")
 recreatisse.com$$script[tag-content="adback_configuration"][min-length="100000"][max-length="360000"]
@@ -449,8 +439,6 @@ voyageforum.com$$script[tag-content="adsbygoogle"][max-length="3700"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34766
 jtrouver.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
 !#if (adguard_ext_firefox || adguard_ext_opera || adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-jtrouver.com#@#.adsbygoogle
-jtrouver.com#$#.adsbygoogle { height: 1px!important; }
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=jtrouver.com
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=jtrouver.com
 !#endif
@@ -905,7 +893,9 @@ dl-protect.net,annuaire-telechargement.tel#%#//scriptlet('abort-on-stack-trace',
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125733
 japscan.me#%#//scriptlet("abort-current-inline-script", "JSON.parse", "document.createElement('script')")
 japscan.me#%#//scriptlet("abort-current-inline-script", "document.createElement", "document.documentElement).appendChild")
+! https://github.com/AdguardTeam/AdguardFilters/issues/159695
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119411
+femmeactuelle.fr,geo.fr,voici.fr,programme-tv.net,gala.fr,capital.fr#%#//scriptlet('set-constant', 'Object.prototype.withAds', 'false')
 femmeactuelle.fr,geo.fr,voici.fr,programme-tv.net,gala.fr,capital.fr#%#AG_onLoad(function(){if(window.pmsCoreAds&&Array.isArray(pmsCoreAds)){window.pmsCoreAds=new Proxy(pmsCoreAds,{set:(a,b,c,d)=>{if("function"==typeof c)try{let a=!1;const b=b=>{var c=document.querySelector(".ads-core-video");c&&a?clearInterval(d):(b(),a=!0)},d=setInterval(b,1e3,c)}catch(a){}return Reflect.set(a,b,c,d)}})}});
 ! allocine.fr - fixing delay in the video player
 allocine.fr#%#//scriptlet("set-constant", "AC.config.ads", "emptyObj")
@@ -1074,11 +1064,14 @@ voirseries.io$$script[src="KGZ1bmN0aW9uKCQsZG9jdW1lbnQp"]
 !
 ! For URL shorteners or simple sites with frequently changed ad servers.
 ! Incorrectly blocked domains can be excluded using regex(synchronize this regexp in all filters)
-/^(?!.*(sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=scan-fr.cc
+/^(?!.*(statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=scan-fr.cc
 ! Similar to regexp above, but using the denyallow modifier
-$script,third-party,denyallow=sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=extreme-down.moe|dl-protect.link
+$script,third-party,denyallow=statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=extreme-down.moe|dl-protect.link
 !
 !
+fusevideo.io##body > a
+animecat.net##div[style^="height: 250px;"]
+lequipe.fr##body div[id^="AmPlaceholder-"]
 orange.fr##.media-advert-rm-center
 minutesports.fr###slide
 orange.fr##div[id="oan_ora_1_300x250_hp.prospects"]
@@ -1644,6 +1637,12 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_french
 !
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/19469
+@@||yospace.com/csm/*.mpd$xmlhttprequest,domain=6play.fr
+! https://github.com/AdguardTeam/AdguardFilters/issues/160011
+123-movies.*#@#.fake_player
+123-movies.*#@#a[href="#tab-ad"]
+123-movies.*#@##tab-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158757
 ||ojrq.net^$popup,third-party,badfilter
 ! beautifulwomen2.bdsmlr.com - broken fonts
@@ -1712,14 +1711,10 @@ $script,third-party,domain=gdriveplayer.to,badfilter
 leboncoin.fr#@?#a[data-test-id]:-abp-has([class]:-abp-contains(/À la une|Sponsorisé|Urgent/))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147808
 bilibili.com#@#.publicity
-! https://github.com/AdguardTeam/AdguardFilters/issues/148566
-123-movies.life#@#a[href="#tab-ad"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147933
 @@||ultimedia.com/js/common/smart.js$domain=lalibre.be
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147668
 filecrypt.cc,filecrypt.co#@#[onmousedown]
-! https://github.com/AdguardTeam/AdguardFilters/issues/147355
-123-movies.*#@##tab-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146830
 geo.fr#@#[data-ads-core]
 @@||tra.scds.pmdstatic.net/advertising-core/*/core-ads.js$domain=geo.fr
